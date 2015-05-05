@@ -11,6 +11,7 @@
 @interface BaseQuestionViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *optionView;
 @property NSInteger currentSelection;
+@property (weak, nonatomic) IBOutlet UILabel *validationLabel;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
 @end

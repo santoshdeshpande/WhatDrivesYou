@@ -30,14 +30,14 @@
     self.questionLabel.text = [dict objectForKey:@"Question"];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     [self updateSelection];
-    [self.navigationItem setHidesBackButton:YES];
+//    [self.navigationItem setHidesBackButton:YES];
 
 }
 
 -(void)viewDidAppear:(BOOL)animated {
     
     [super viewDidAppear:YES];
-    [self.navigationItem setHidesBackButton:YES];
+//    [self.navigationItem setHidesBackButton:YES];
 
 }
 
@@ -70,27 +70,37 @@
     OptionCollectionViewCell *cell = (OptionCollectionViewCell*) [collectionView cellForItemAtIndexPath:indexPath];
     cell.optionView.backgroundColor = [UIColor redColor];
     [self setCurrentSelection:indexPath.row];
-//    NSInteger tag = self.view.tag;
-//    NSString *key = [NSString stringWithFormat:@"answer-%ld", tag];
+    NSInteger tag = self.view.tag;
+    NSString *key = [NSString stringWithFormat:@"answer-%ld", (long)tag];
 
-//    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
-//    [defaults setInteger:indexPath.row+1 forKey:key];
+    [defaults setInteger:indexPath.row+1 forKey:key];
+    if(self.validationLabel) {
+        [self.validationLabel setHidden:YES];
+    }
     
 }
 
 - (void) updateSelection {
-//    NSInteger tag = self.view.tag;
-//    NSString *key = [NSString stringWithFormat:@"answer-%ld", tag];
-//    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-//    NSLog(@"Log: %ld",[defaults integerForKey:key]);
-//    if([defaults integerForKey:key] != 0) {
-//        NSIndexPath *path = [NSIndexPath indexPathForItem:[defaults integerForKey:key]-1 inSection:0];
-//        NSLog(@"Path: %@",path);
-//        OptionCollectionViewCell *cell = (OptionCollectionViewCell*) [self.optionView cellForItemAtIndexPath:path];
-//        NSLog(@"Cell - %@",cell);
-//        cell.optionView.backgroundColor = [UIColor redColor];
-//    }
+    NSInteger tag = self.view.tag;
+    NSString *key = [NSString stringWithFormat:@"answer-%ld", (long)tag];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if([defaults integerForKey:key] != 0) {
+        NSIndexPath *path = [NSIndexPath indexPathForItem:[defaults integerForKey:key]-1 inSection:0];
+        OptionCollectionViewCell *cell = (OptionCollectionViewCell*) [self.optionView cellForItemAtIndexPath:path];
+        [self setCurrentSelection:path.row];
+        if(cell == nil) {
+            [self.optionView layoutIfNeeded];
+            cell = (OptionCollectionViewCell*)[self.optionView cellForItemAtIndexPath:path];
+        }
+        cell.optionView.backgroundColor = [UIColor redColor];
+    }
+    
+    if(self.validationLabel) {
+        [self.validationLabel setHidden:YES];
+    }
+
 
 }
 /*
@@ -102,5 +112,15 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (BOOL) shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    if(self.currentSelection == -1) {
+        if(self.validationLabel != nil) {
+            [self.validationLabel setHidden:NO];
+        }
+        return NO;
+    }
+    return YES;
+}
 
 @end
