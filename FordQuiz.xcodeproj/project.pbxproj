@@ -14,6 +14,15 @@
 		3AE23E681AF7B01D00939315 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23E671AF7B01D00939315 /* Images.xcassets */; };
 		3AE23E6B1AF7B01D00939315 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23E691AF7B01D00939315 /* LaunchScreen.xib */; };
 		3AE23E771AF7B01D00939315 /* FordQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E761AF7B01D00939315 /* FordQuizTests.m */; };
+		3AE23E831AF7B69C00939315 /* BaseQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E821AF7B69C00939315 /* BaseQuestionViewController.m */; };
+		3AE23E871AF7BB2E00939315 /* OptionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E861AF7BB2E00939315 /* OptionCollectionViewCell.m */; };
+		3AE23E8A1AF8143F00939315 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E891AF8143F00939315 /* VideoViewController.m */; };
+		3AE23E8F1AF817E200939315 /* Commercial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23E8C1AF8148D00939315 /* Commercial.mp4 */; };
+		3AE23E911AF818C500939315 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE23E901AF818C500939315 /* AVKit.framework */; };
+		3AE23E931AF83A1900939315 /* QuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23E921AF83A1900939315 /* QuestionView.xib */; };
+		3AE23E961AF83B9400939315 /* QuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E951AF83B9400939315 /* QuestionView.m */; };
+		3AE23EAD1AF854F300939315 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23EAC1AF854F300939315 /* WelcomeViewController.m */; };
+		3AE23EAF1AF858F900939315 /* Questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EAE1AF858F900939315 /* Questions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,21 @@
 		3AE23E701AF7B01D00939315 /* FordQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FordQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE23E751AF7B01D00939315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE23E761AF7B01D00939315 /* FordQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FordQuizTests.m; sourceTree = "<group>"; };
+		3AE23E811AF7B69C00939315 /* BaseQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseQuestionViewController.h; sourceTree = "<group>"; };
+		3AE23E821AF7B69C00939315 /* BaseQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseQuestionViewController.m; sourceTree = "<group>"; };
+		3AE23E851AF7BB2E00939315 /* OptionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionCollectionViewCell.h; sourceTree = "<group>"; };
+		3AE23E861AF7BB2E00939315 /* OptionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionCollectionViewCell.m; sourceTree = "<group>"; };
+		3AE23E881AF8143F00939315 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		3AE23E891AF8143F00939315 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		3AE23E8C1AF8148D00939315 /* Commercial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Commercial.mp4; sourceTree = "<group>"; };
+		3AE23E8D1AF8151A00939315 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3AE23E901AF818C500939315 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		3AE23E921AF83A1900939315 /* QuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionView.xib; sourceTree = "<group>"; };
+		3AE23E941AF83B9400939315 /* QuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionView.h; sourceTree = "<group>"; };
+		3AE23E951AF83B9400939315 /* QuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionView.m; sourceTree = "<group>"; };
+		3AE23EAB1AF854F300939315 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		3AE23EAC1AF854F300939315 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		3AE23EAE1AF858F900939315 /* Questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Questions.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE23E911AF818C500939315 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,8 @@
 		3AE23E4E1AF7B01D00939315 = {
 			isa = PBXGroup;
 			children = (
+				3AE23E901AF818C500939315 /* AVKit.framework */,
+				3AE23E8D1AF8151A00939315 /* MediaPlayer.framework */,
 				3AE23E591AF7B01D00939315 /* FordQuiz */,
 				3AE23E731AF7B01D00939315 /* FordQuizTests */,
 				3AE23E581AF7B01D00939315 /* Products */,
@@ -81,6 +108,9 @@
 		3AE23E591AF7B01D00939315 /* FordQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				3AE23E8B1AF8147A00939315 /* Assets */,
+				3AE23E841AF7BB1600939315 /* Cells */,
+				3AE23E801AF7B68700939315 /* ViewControllers */,
 				3AE23E5E1AF7B01D00939315 /* AppDelegate.h */,
 				3AE23E5F1AF7B01D00939315 /* AppDelegate.m */,
 				3AE23E611AF7B01D00939315 /* ViewController.h */,
@@ -89,6 +119,8 @@
 				3AE23E671AF7B01D00939315 /* Images.xcassets */,
 				3AE23E691AF7B01D00939315 /* LaunchScreen.xib */,
 				3AE23E5A1AF7B01D00939315 /* Supporting Files */,
+				3AE23E921AF83A1900939315 /* QuestionView.xib */,
+				3AE23EAE1AF858F900939315 /* Questions.plist */,
 			);
 			path = FordQuiz;
 			sourceTree = "<group>";
@@ -117,6 +149,38 @@
 				3AE23E751AF7B01D00939315 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AE23E801AF7B68700939315 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AE23E811AF7B69C00939315 /* BaseQuestionViewController.h */,
+				3AE23E821AF7B69C00939315 /* BaseQuestionViewController.m */,
+				3AE23E881AF8143F00939315 /* VideoViewController.h */,
+				3AE23E891AF8143F00939315 /* VideoViewController.m */,
+				3AE23EAB1AF854F300939315 /* WelcomeViewController.h */,
+				3AE23EAC1AF854F300939315 /* WelcomeViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3AE23E841AF7BB1600939315 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3AE23E851AF7BB2E00939315 /* OptionCollectionViewCell.h */,
+				3AE23E861AF7BB2E00939315 /* OptionCollectionViewCell.m */,
+				3AE23E941AF83B9400939315 /* QuestionView.h */,
+				3AE23E951AF83B9400939315 /* QuestionView.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3AE23E8B1AF8147A00939315 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3AE23E8C1AF8148D00939315 /* Commercial.mp4 */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +263,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE23EAF1AF858F900939315 /* Questions.plist in Resources */,
+				3AE23E931AF83A1900939315 /* QuestionView.xib in Resources */,
 				3AE23E661AF7B01D00939315 /* Main.storyboard in Resources */,
 				3AE23E6B1AF7B01D00939315 /* LaunchScreen.xib in Resources */,
 				3AE23E681AF7B01D00939315 /* Images.xcassets in Resources */,
+				3AE23E8F1AF817E200939315 /* Commercial.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE23E961AF83B9400939315 /* QuestionView.m in Sources */,
 				3AE23E631AF7B01D00939315 /* ViewController.m in Sources */,
+				3AE23E831AF7B69C00939315 /* BaseQuestionViewController.m in Sources */,
+				3AE23E8A1AF8143F00939315 /* VideoViewController.m in Sources */,
 				3AE23E601AF7B01D00939315 /* AppDelegate.m in Sources */,
+				3AE23EAD1AF854F300939315 /* WelcomeViewController.m in Sources */,
+				3AE23E871AF7BB2E00939315 /* OptionCollectionViewCell.m in Sources */,
 				3AE23E5D1AF7B01D00939315 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +490,7 @@
 				3AE23E7C1AF7B01D00939315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE23E7D1AF7B01D00939315 /* Build configuration list for PBXNativeTarget "FordQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +499,7 @@
 				3AE23E7F1AF7B01D00939315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

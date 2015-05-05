@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Options</key>
+		<array>
+			<string>Unwind and listen to some good music</string>
+			<string>Take a step back and try coming at the problem at work from a different approach</string>
+			<string>Tackle the problem you had at work</string>
+			<string>Start the next day with full energy, overcoming all hurdles</string>
+			<string>Catch up with friends and have a blast</string>
+			<string>Come home and cook a wholesome meal for your family</string>
+			<string>Hit the gym</string>
+		</array>
+		<key>Question</key>
+		<string>You had a long/bad day at work. What would you rather do ?</string>
+	</dict>
+	<dict>
+		<key>Options</key>
+		<array>
+			<string>Enable and appreciate independent thought</string>
+			<string>Challenge you constantly</string>
+			<string>Appreciate and hold in high esteem</string>
+			<string>Would enable to have some status among your peers</string>
+			<string>Allow you a good work and personal life balance</string>
+			<string>Provide with stability and security</string>
+			<string>Enable you to achieve your life goals</string>
+		</array>
+		<key>Question</key>
+		<string>Your perfect job would</string>
+	</dict>
+	<dict>
+		<key>Options</key>
+		<array>
+			<string>Get people together and hit the latest art exhibition/ live performance/ play</string>
+			<string>Get people together to try the latest rock climbing centre opened</string>
+			<string>Cook a fabulous meal and display your newly acquired culinary skills</string>
+			<string>Put together an evening which allows you to network and create the right contacts</string>
+			<string>Allow you a good work and personal life balance</string>
+			<string>You would take the money and help feed the homeless</string>
+			<string>A formal sit down dinner</string>
+		</array>
+		<key>Question</key>
+		<string>You have to organize a get together, you would rather</string>
+	</dict>
+	<dict>
+		<key>Options</key>
+		<array>
+			<string>A good sense of humour</string>
+			<string>The ability to adapt to a situation as it crops up</string>
+			<string>Integrity in life</string>
+			<string>A determination to succeed</string>
+			<string>A high regard for traditions and customs</string>
+			<string>The ability to ensure the safety and comfort of the family</string>
+			<string>Have their own opinions about things</string>
+		</array>
+		<key>Question</key>
+		<string>A must have attribute in your partner is</string>
+	</dict>
+	<dict>
+		<key>Options</key>
+		<array>
+			<string>A place that allows you to relax, enjoy luxrious spas, soak in the sites, enjoy the local flavours</string>
+			<string>A new place  that shows allows you to experience new things</string>
+			<string>A simple holiday that allows you to recharge your batteries</string>
+			<string>The most exotic locale with high-living</string>
+			<string>A family holiday by the sea -side</string>
+			<string>Visiting under-developed countries and volunteering at humanitarian organisations</string>
+			<string>A fully-planned holiday with a detailed itineary</string>
+		</array>
+		<key>Question</key>
+		<string>Your ideal vacation would be</string>
+	</dict>
+	<dict>
+		<key>Options</key>
+		<array>
+			<string>a writer</string>
+			<string>an explorer</string>
+			<string>a Professor</string>
+			<string>a Business Magnate</string>
+			<string>a Counsellor</string>
+			<string>a Doctor</string>
+			<string>an Athlete</string>
+		</array>
+		<key>Question</key>
+		<string>If you had to select a profession from below, what would you be</string>
+	</dict>
+	<dict>
+		<key>Options</key>
+		<array>
+			<string>Go splurge on giving yourself a make-over</string>
+			<string>Buy the latest cutting-edge gadget you have been coveting</string>
+			<string>Spend the money on a course or something that would lead to your skill set advancement</string>
+			<string>Make an investment with high yield rate</string>
+			<string>Spend the money on something needed at home or treating my friends</string>
+			<string>Put the money into the bank as a saving for a rainy day</string>
+			<string>Make a purchase of an item that you had carefully evaluated and planned on purchasing</string>
+		</array>
+		<key>Question</key>
+		<string>If you unexpectedly receive Rs. 50,000 you would</string>
+	</dict>
+	<dict>
+		<key>Options</key>
+		<array>
+			<string>Be excited and say great a little &apos;me&apos; time and start reading a book you haven&apos;t been able to get to in a while</string>
+			<string>Walk up to the gadget store to check out the latest products in the market</string>
+			<string>Sit and patiently wait</string>
+			<string>Walk up to the help desk to find out the reason for the delay and see if you can get another earlier flight</string>
+			<string>You take the time to call your family and friends and chat with them</string>
+			<string>You call your family to let them know about the delay and then sit back and wait patiently</string>
+			<string>You get frustrated, however, you sit down and start working so that you can make up for the time you are loosing</string>
+		</array>
+		<key>Question</key>
+		<string>You have to fly to another city for work and you arrive at the airport only to find your flight has been delayed by 3 hours, you would</string>
+	</dict>
+</array>
+</plist>

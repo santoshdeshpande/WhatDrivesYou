@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuestionView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Bbs-cb-OnN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Abl-xH-coy">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have had a long/bad day at work. What would you rather do ?" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5J6-4R-zt7">
+                    <rect key="frame" x="8" y="128" width="584" height="24"/>
+                    <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5J6-4R-zt7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="120" id="39b-ET-UOf"/>
+                <constraint firstItem="5J6-4R-zt7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="4xr-tW-nr0"/>
+                <constraint firstItem="Abl-xH-coy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DKu-SL-iIH"/>
+                <constraint firstItem="5J6-4R-zt7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="IhJ-ws-okx"/>
+                <constraint firstAttribute="bottom" secondItem="Abl-xH-coy" secondAttribute="bottom" id="Ir6-3r-Acb"/>
+                <constraint firstAttribute="trailingMargin" secondItem="5J6-4R-zt7" secondAttribute="trailing" id="Mge-tK-Vez"/>
+                <constraint firstAttribute="trailing" secondItem="Abl-xH-coy" secondAttribute="trailing" id="Xz3-Hm-FlG"/>
+                <constraint firstAttribute="trailing" secondItem="Abl-xH-coy" secondAttribute="trailing" id="iE7-fo-3c1"/>
+                <constraint firstAttribute="trailing" secondItem="5J6-4R-zt7" secondAttribute="trailing" id="kUw-Np-Jrf"/>
+                <constraint firstItem="Abl-xH-coy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="n5i-xE-l5t"/>
+                <constraint firstItem="5J6-4R-zt7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ssv-hG-grx"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="iE7-fo-3c1"/>
+                    <exclude reference="IhJ-ws-okx"/>
+                    <exclude reference="kUw-Np-Jrf"/>
+                    <exclude reference="ssv-hG-grx"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="2048" height="2048"/>
+    </resources>
+</document>
