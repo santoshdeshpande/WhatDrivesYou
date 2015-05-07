@@ -50,6 +50,6 @@
         </view>
     </objects>
     <resources>
-        <image name="background" width="2048" height="2048"/>
+        <image name="background" width="2038" height="1536"/>
     </resources>
 </document>

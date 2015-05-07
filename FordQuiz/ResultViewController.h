@@ -9,4 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ResultViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *typeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *valueLabel;
 @end

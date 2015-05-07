@@ -19,10 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSURL * urlA1 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Commercial1"ofType:@"mov"]];
+    NSURL * urlA1 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"WhatDrivesYou"ofType:@"m4v"]];
     
     self.player = [AVPlayer playerWithURL:urlA1];
-    [self setShowsPlaybackControls:NO];
+    [self.player setVolume:1.0];
+//    [self setShowsPlaybackControls:NO];
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:NULL];
     [self.navigationController setNavigationBarHidden:NO];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playerItemDidReachEnd:) name:AVPlayerItemDidPlayToEndTimeNotification object:[self.player currentItem]];
     [self.player play];

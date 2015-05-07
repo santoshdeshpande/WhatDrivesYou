@@ -3,17 +3,15 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "participate.png"
+      "filename" : "Participate-now.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "participate-1.png"
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "participate-2.png"
+      "scale" : "3x"
     }
   ],
   "info" : {

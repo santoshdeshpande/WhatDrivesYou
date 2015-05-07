@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3A0EEDA71AFA650400583CC2 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EEDA61AFA650400583CC2 /* ResultViewController.m */; };
 		3A0EEDAA1AFA66C900583CC2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EEDA91AFA66C900583CC2 /* WebViewController.m */; };
+		3A9F51A11AFB4B870038B51D /* Values.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F51A01AFB4B870038B51D /* Values.plist */; };
+		3A9F51A61AFB74880038B51D /* Results.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F51A51AFB74880038B51D /* Results.plist */; };
+		3A9F51AE1AFB7A720038B51D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9F51AD1AFB7A720038B51D /* CoreMedia.framework */; };
+		3A9F51B01AFB7B4F0038B51D /* WhatDrivesYou.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F51AF1AFB7B4F0038B51D /* WhatDrivesYou.m4v */; };
 		3AE23E5D1AF7B01D00939315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E5C1AF7B01D00939315 /* main.m */; };
 		3AE23E601AF7B01D00939315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E5F1AF7B01D00939315 /* AppDelegate.m */; };
 		3AE23E631AF7B01D00939315 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E621AF7B01D00939315 /* ViewController.m */; };
@@ -96,7 +100,6 @@
 		3AE23F761AFA154700939315 /* FordAntennaWGL-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F2E1AFA154700939315 /* FordAntennaWGL-SemiboldItalic.otf */; };
 		3AE23F771AFA154700939315 /* FordAntennaWGL-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F2F1AFA154700939315 /* FordAntennaWGL-Thin.otf */; };
 		3AE23F781AFA154700939315 /* FordAntennaWGL-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F301AFA154700939315 /* FordAntennaWGL-ThinItalic.otf */; };
-		3AE23F7A1AFA4A5E00939315 /* Commercial1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F791AFA4A5E00939315 /* Commercial1.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +117,10 @@
 		3A0EEDA61AFA650400583CC2 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 		3A0EEDA81AFA66C900583CC2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		3A0EEDA91AFA66C900583CC2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		3A9F51A01AFB4B870038B51D /* Values.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Values.plist; sourceTree = "<group>"; };
+		3A9F51A51AFB74880038B51D /* Results.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Results.plist; sourceTree = "<group>"; };
+		3A9F51AD1AFB7A720038B51D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3A9F51AF1AFB7B4F0038B51D /* WhatDrivesYou.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = WhatDrivesYou.m4v; path = ../../../../../Desktop/WhatDrivesYou.m4v; sourceTree = "<group>"; };
 		3AE23E571AF7B01D00939315 /* FordQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FordQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE23E5B1AF7B01D00939315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE23E5C1AF7B01D00939315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -213,7 +220,6 @@
 		3AE23F2E1AFA154700939315 /* FordAntennaWGL-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		3AE23F2F1AFA154700939315 /* FordAntennaWGL-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-Thin.otf"; sourceTree = "<group>"; };
 		3AE23F301AFA154700939315 /* FordAntennaWGL-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-ThinItalic.otf"; sourceTree = "<group>"; };
-		3AE23F791AFA4A5E00939315 /* Commercial1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Commercial1.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9F51AE1AFB7A720038B51D /* CoreMedia.framework in Frameworks */,
 				3AE23E911AF818C500939315 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +245,7 @@
 		3AE23E4E1AF7B01D00939315 = {
 			isa = PBXGroup;
 			children = (
+				3A9F51AD1AFB7A720038B51D /* CoreMedia.framework */,
 				3AE23E901AF818C500939315 /* AVKit.framework */,
 				3AE23E8D1AF8151A00939315 /* MediaPlayer.framework */,
 				3AE23E591AF7B01D00939315 /* FordQuiz */,
@@ -272,6 +280,8 @@
 				3AE23E5A1AF7B01D00939315 /* Supporting Files */,
 				3AE23E921AF83A1900939315 /* QuestionView.xib */,
 				3AE23EAE1AF858F900939315 /* Questions.plist */,
+				3A9F51A01AFB4B870038B51D /* Values.plist */,
+				3A9F51A51AFB74880038B51D /* Results.plist */,
 			);
 			path = FordQuiz;
 			sourceTree = "<group>";
@@ -333,7 +343,7 @@
 		3AE23E8B1AF8147A00939315 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3AE23F791AFA4A5E00939315 /* Commercial1.mov */,
+				3A9F51AF1AFB7B4F0038B51D /* WhatDrivesYou.m4v */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -498,6 +508,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9F51A61AFB74880038B51D /* Results.plist in Resources */,
 				3AE23F751AFA154700939315 /* FordAntennaWGL-Semibold.otf in Resources */,
 				3AE23F561AFA154700939315 /* FordAntennaCondWGL-RegItalic.otf in Resources */,
 				3AE23F781AFA154700939315 /* FordAntennaWGL-ThinItalic.otf in Resources */,
@@ -512,7 +523,6 @@
 				3AE23F541AFA154700939315 /* FordAntennaCondWGL-MedItalic.otf in Resources */,
 				3AE23F721AFA154700939315 /* FordAntennaWGL-MediumItalic.otf in Resources */,
 				3AE23E931AF83A1900939315 /* QuestionView.xib in Resources */,
-				3AE23F7A1AFA4A5E00939315 /* Commercial1.mov in Resources */,
 				3AE23F741AFA154700939315 /* FordAntennaWGL-RegularItalic.otf in Resources */,
 				3AE23F311AFA154700939315 /* Antenna Black.otf in Resources */,
 				3AE23F321AFA154700939315 /* Antenna BlackItalic.otf in Resources */,
@@ -549,6 +559,7 @@
 				3AE23F341AFA154700939315 /* Antenna BoldItalic.otf in Resources */,
 				3AE23F471AFA154700939315 /* FordAntennaCompWGL-Semibold.otf in Resources */,
 				3AE23F731AFA154700939315 /* FordAntennaWGL-Regular.otf in Resources */,
+				3A9F51A11AFB4B870038B51D /* Values.plist in Resources */,
 				3AE23F411AFA154700939315 /* FordAntennaCompWGL-Light.otf in Resources */,
 				3AE23F431AFA154700939315 /* FordAntennaCompWGL-Med.otf in Resources */,
 				3AE23F401AFA154700939315 /* FordAntennaCompWGL-ExtLigIt.otf in Resources */,
@@ -572,6 +583,7 @@
 				3AE23F381AFA154700939315 /* Antenna Regular.otf in Resources */,
 				3AE23F631AFA154700939315 /* FordAntennaExtraCondWGL-Reg.otf in Resources */,
 				3AE23F3A1AFA154700939315 /* AntennaCond Light.otf in Resources */,
+				3A9F51B01AFB7B4F0038B51D /* WhatDrivesYou.m4v in Resources */,
 				3AE23F4B1AFA154700939315 /* FordAntennaCondWGL-Black.otf in Resources */,
 				3AE23F4F1AFA154700939315 /* FordAntennaCondWGL-ExtLightIta.otf in Resources */,
 				3AE23F511AFA154700939315 /* FordAntennaCondWGL-Light.otf in Resources */,
@@ -732,6 +744,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FordQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -743,6 +756,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FordQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

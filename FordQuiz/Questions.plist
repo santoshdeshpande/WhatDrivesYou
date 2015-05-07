@@ -5,13 +5,13 @@
 	<dict>
 		<key>AnswerKeys</key>
 		<array>
-			<string>2</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
+			<integer>2</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
 		</array>
 		<key>Options</key>
 		<array>
@@ -39,13 +39,13 @@
 		</array>
 		<key>AnswerKeys</key>
 		<array>
-			<string>1</string>
-			<string>2</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
+			<integer>1</integer>
+			<integer>2</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
 		</array>
 		<key>Question</key>
 		<string>Your perfect job would</string>
@@ -63,13 +63,13 @@
 		</array>
 		<key>AnswerKeys</key>
 		<array>
-			<string>1</string>
-			<string>1</string>
-			<string>2</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>2</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
 		</array>
 		<key>Question</key>
 		<string>You have to organize a get together, you would rather</string>
@@ -87,13 +87,13 @@
 		</array>
 		<key>AnswerKeys</key>
 		<array>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>2</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>2</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
 		</array>
 		<key>Question</key>
 		<string>A must have attribute in your partner is</string>
@@ -111,13 +111,13 @@
 		</array>
 		<key>AnswerKeys</key>
 		<array>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>2</string>
-			<string>1</string>
-			<string>1</string>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>2</integer>
+			<integer>1</integer>
+			<integer>1</integer>
 		</array>
 		<key>Question</key>
 		<string>Your ideal vacation would be</string>
@@ -135,16 +135,16 @@
 		</array>
 		<key>AnswerKeys</key>
 		<array>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>2</string>
-			<string>1</string>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>2</integer>
+			<integer>1</integer>
 		</array>
 		<key>Question</key>
-		<string>If you had to select a profession from below, what would you be</string>
+		<string>If you had to select a profession below, what would you be</string>
 	</dict>
 	<dict>
 		<key>Options</key>
@@ -159,13 +159,13 @@
 		</array>
 		<key>AnswerKeys</key>
 		<array>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>2</string>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>2</integer>
 		</array>
 		<key>Question</key>
 		<string>If you unexpectedly receive Rs. 50,000 you would</string>
@@ -183,13 +183,13 @@
 		</array>
 		<key>AnswerKeys</key>
 		<array>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>1</string>
-			<string>2</string>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>1</integer>
+			<integer>2</integer>
 		</array>
 		<key>Question</key>
 		<string>You have to fly to another city for work and you arrive at the airport only to find your flight has been delayed by 3 hours, you would</string>

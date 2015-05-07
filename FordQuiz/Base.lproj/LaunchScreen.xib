@@ -16,10 +16,10 @@
                     <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WDY-logo" translatesAutoresizingMaskIntoConstraints="NO" id="H7d-Yq-57t">
-                    <rect key="frame" x="70" y="70" width="300" height="336"/>
+                    <rect key="frame" x="70" y="70" width="275" height="308"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="H7d-Yq-57t" secondAttribute="height" multiplier="321:359" id="cus-s8-C1e"/>
-                        <constraint firstAttribute="width" constant="300" id="qYK-Sb-tJ5"/>
+                        <constraint firstAttribute="width" constant="275" id="qYK-Sb-tJ5"/>
                     </constraints>
                 </imageView>
             </subviews>

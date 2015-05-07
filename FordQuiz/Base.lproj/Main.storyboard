@@ -33,187 +33,95 @@
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--Welcome-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Skip-->
+        <scene sceneID="pZU-id-Xz7">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" sceneMemberID="viewController">
+                <viewController id="2VR-3S-5d4" customClass="WelcomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="YQW-7g-yJ3"/>
+                        <viewControllerLayoutGuide type="bottom" id="CJB-Sd-jga"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="OWn-0v-8JW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main-background" translatesAutoresizingMaskIntoConstraints="NO" id="ZuG-AQ-qMs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main-background" translatesAutoresizingMaskIntoConstraints="NO" id="L2X-6Z-pSe">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WDY-logo" translatesAutoresizingMaskIntoConstraints="NO" id="TdJ-rF-yaP">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WDY-logo" translatesAutoresizingMaskIntoConstraints="NO" id="RdR-vY-sz8">
+                                <rect key="frame" x="16" y="84" width="275" height="306"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="TdJ-rF-yaP" secondAttribute="height" multiplier="321:359" id="4Rh-ym-ih2"/>
-                                    <constraint firstAttribute="width" constant="642" id="fkd-4m-qe6">
-                                        <variation key="heightClass=regular" constant="300"/>
-                                    </constraint>
+                                    <constraint firstAttribute="width" constant="275" id="53J-O2-UZ9"/>
+                                    <constraint firstAttribute="width" secondItem="RdR-vY-sz8" secondAttribute="height" multiplier="9:10" id="SBp-WD-CbV"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="4Rh-ym-ih2"/>
-                                        <exclude reference="fkd-4m-qe6"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="4Rh-ym-ih2"/>
-                                        <include reference="fkd-4m-qe6"/>
-                                    </mask>
-                                </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhI-pv-JBI">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJY-Zs-dx6">
+                                <rect key="frame" x="16" y="398" width="200" height="82"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="xhI-pv-JBI" secondAttribute="height" multiplier="127:52" id="PhM-PR-RWD"/>
-                                    <constraint firstAttribute="width" constant="508" id="vE7-3a-NCR">
-                                        <variation key="heightClass=regular" constant="200"/>
-                                    </constraint>
+                                    <constraint firstAttribute="width" secondItem="LJY-Zs-dx6" secondAttribute="height" multiplier="127:52" id="PZY-Zb-OAo"/>
+                                    <constraint firstAttribute="width" constant="200" id="qt1-kE-2Zm"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="watch-video-icon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="PhM-PR-RWD"/>
-                                        <exclude reference="vE7-3a-NCR"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="PhM-PR-RWD"/>
-                                        <include reference="vE7-3a-NCR"/>
-                                    </mask>
-                                </variation>
                                 <connections>
-                                    <segue destination="yVR-ln-mvF" kind="show" id="s1o-fQ-dIf"/>
+                                    <segue destination="yVR-ln-mvF" kind="show" id="iOv-tW-Xzs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVs-qY-Kl9">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e28-QL-YTL">
+                                <rect key="frame" x="16" y="470" width="200" height="82"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="508" id="XzD-ip-Idr">
-                                        <variation key="heightClass=regular" constant="200"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" secondItem="kVs-qY-Kl9" secondAttribute="height" multiplier="127:52" id="ech-yh-WWp"/>
+                                    <constraint firstAttribute="width" constant="200" id="3iR-M4-utz"/>
+                                    <constraint firstAttribute="width" secondItem="e28-QL-YTL" secondAttribute="height" multiplier="127:52" id="P7Y-l4-98U"/>
+                                    <constraint firstAttribute="width" constant="200" id="YNV-IE-9dG"/>
+                                    <constraint firstAttribute="width" secondItem="e28-QL-YTL" secondAttribute="height" multiplier="25:26" id="sGo-C4-8d8"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="play-quiz-button">
+                                <state key="normal" image="play-quiz-button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="XzD-ip-Idr"/>
-                                        <exclude reference="ech-yh-WWp"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="XzD-ip-Idr"/>
-                                        <exclude reference="ech-yh-WWp"/>
+                                        <exclude reference="YNV-IE-9dG"/>
+                                        <exclude reference="sGo-C4-8d8"/>
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <segue destination="IgQ-3u-fWP" kind="show" id="Rol-KL-1mk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8El-I5-PLG">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="614" y="605" width="46" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="h82-8w-aKf" kind="show" id="O9U-et-uSS"/>
+                                    <segue destination="IgQ-3u-fWP" kind="show" id="teP-J9-sNe"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kVs-qY-Kl9" firstAttribute="width" secondItem="kVs-qY-Kl9" secondAttribute="height" multiplier="127:52" id="2EP-xh-w9B"/>
-                            <constraint firstItem="ZuG-AQ-qMs" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="2aJ-2Q-epL"/>
-                            <constraint firstItem="TdJ-rF-yaP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="7Rl-Qs-w4y"/>
-                            <constraint firstItem="xhI-pv-JBI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="7dN-N8-3eR">
-                                <variation key="heightClass=regular" constant="65"/>
-                            </constraint>
-                            <constraint firstAttribute="centerY" secondItem="ZuG-AQ-qMs" secondAttribute="centerY" id="93g-nv-ZST"/>
-                            <constraint firstItem="xhI-pv-JBI" firstAttribute="top" secondItem="TdJ-rF-yaP" secondAttribute="bottom" constant="40" id="Ch8-lq-xlO">
-                                <variation key="heightClass=regular" constant="10"/>
-                            </constraint>
-                            <constraint firstItem="ZuG-AQ-qMs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="JUf-ey-TU5"/>
-                            <constraint firstItem="TdJ-rF-yaP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="100" id="Lxv-p5-p3M">
-                                <variation key="heightClass=regular" constant="70"/>
-                            </constraint>
-                            <constraint firstItem="kVs-qY-Kl9" firstAttribute="top" secondItem="xhI-pv-JBI" secondAttribute="bottom" constant="5" id="PkZ-lS-Qej"/>
-                            <constraint firstItem="kVs-qY-Kl9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="65" id="Rg3-ZB-J3G"/>
-                            <constraint firstAttribute="centerX" secondItem="ZuG-AQ-qMs" secondAttribute="centerX" id="b3g-tW-C5N"/>
-                            <constraint firstItem="TdJ-rF-yaP" firstAttribute="leading" secondItem="xhI-pv-JBI" secondAttribute="leading" id="lxi-Fx-Aac"/>
-                            <constraint firstItem="TdJ-rF-yaP" firstAttribute="top" secondItem="kVs-qY-Kl9" secondAttribute="top" constant="-346" id="qzR-yk-LkC"/>
-                            <constraint firstItem="xhI-pv-JBI" firstAttribute="top" secondItem="kVs-qY-Kl9" secondAttribute="top" id="r3D-d4-uqj"/>
-                            <constraint firstItem="kVs-qY-Kl9" firstAttribute="leading" secondItem="xhI-pv-JBI" secondAttribute="trailing" constant="42" id="zfl-0a-OJo">
-                                <variation key="heightClass=regular" constant="40"/>
-                            </constraint>
+                            <constraint firstItem="e28-QL-YTL" firstAttribute="leading" secondItem="OWn-0v-8JW" secondAttribute="leadingMargin" constant="8" id="1mU-oF-B5w"/>
+                            <constraint firstItem="L2X-6Z-pSe" firstAttribute="leading" secondItem="OWn-0v-8JW" secondAttribute="leading" id="BS7-52-vtf"/>
+                            <constraint firstItem="e28-QL-YTL" firstAttribute="top" secondItem="LJY-Zs-dx6" secondAttribute="bottom" constant="8" id="ONg-kq-Cdx"/>
+                            <constraint firstItem="L2X-6Z-pSe" firstAttribute="top" secondItem="OWn-0v-8JW" secondAttribute="top" id="Vg1-ol-j9A"/>
+                            <constraint firstItem="e28-QL-YTL" firstAttribute="top" secondItem="LJY-Zs-dx6" secondAttribute="bottom" constant="-10" id="a4a-6L-knL"/>
+                            <constraint firstAttribute="trailing" secondItem="L2X-6Z-pSe" secondAttribute="trailing" id="gS7-Ck-Bpd"/>
+                            <constraint firstItem="RdR-vY-sz8" firstAttribute="leading" secondItem="OWn-0v-8JW" secondAttribute="leadingMargin" id="gfw-vP-NeA"/>
+                            <constraint firstItem="e28-QL-YTL" firstAttribute="leading" secondItem="OWn-0v-8JW" secondAttribute="leadingMargin" id="hPl-Rf-xGu"/>
+                            <constraint firstItem="CJB-Sd-jga" firstAttribute="top" secondItem="L2X-6Z-pSe" secondAttribute="bottom" id="k25-xf-Pc4"/>
+                            <constraint firstItem="RdR-vY-sz8" firstAttribute="leading" secondItem="LJY-Zs-dx6" secondAttribute="leading" id="q6r-gp-gUe"/>
+                            <constraint firstItem="LJY-Zs-dx6" firstAttribute="top" secondItem="RdR-vY-sz8" secondAttribute="bottom" constant="8" id="qCz-5d-dUE"/>
+                            <constraint firstItem="e28-QL-YTL" firstAttribute="width" secondItem="LJY-Zs-dx6" secondAttribute="width" id="qfC-Fd-QWu"/>
+                            <constraint firstItem="RdR-vY-sz8" firstAttribute="top" secondItem="YQW-7g-yJ3" secondAttribute="bottom" constant="20" id="zYi-1K-1nu"/>
                         </constraints>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="TdJ-rF-yaP"/>
-                                <exclude reference="xhI-pv-JBI"/>
-                                <exclude reference="kVs-qY-Kl9"/>
-                                <exclude reference="8El-I5-PLG"/>
-                            </mask>
                             <mask key="constraints">
-                                <exclude reference="2EP-xh-w9B"/>
-                                <exclude reference="PkZ-lS-Qej"/>
-                                <exclude reference="Rg3-ZB-J3G"/>
-                                <exclude reference="zfl-0a-OJo"/>
-                                <exclude reference="7dN-N8-3eR"/>
-                                <exclude reference="Ch8-lq-xlO"/>
-                                <exclude reference="r3D-d4-uqj"/>
-                                <exclude reference="7Rl-Qs-w4y"/>
-                                <exclude reference="Lxv-p5-p3M"/>
-                                <exclude reference="lxi-Fx-Aac"/>
-                                <exclude reference="qzR-yk-LkC"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="TdJ-rF-yaP"/>
-                                <include reference="xhI-pv-JBI"/>
-                                <include reference="kVs-qY-Kl9"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="2EP-xh-w9B"/>
-                                <include reference="PkZ-lS-Qej"/>
-                                <include reference="Rg3-ZB-J3G"/>
-                                <exclude reference="zfl-0a-OJo"/>
-                                <include reference="7dN-N8-3eR"/>
-                                <include reference="Ch8-lq-xlO"/>
-                                <exclude reference="r3D-d4-uqj"/>
-                                <include reference="7Rl-Qs-w4y"/>
-                                <include reference="Lxv-p5-p3M"/>
-                                <exclude reference="lxi-Fx-Aac"/>
-                                <exclude reference="qzR-yk-LkC"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=regular">
-                            <mask key="subviews">
-                                <include reference="8El-I5-PLG"/>
+                                <exclude reference="1mU-oF-B5w"/>
+                                <exclude reference="ONg-kq-Cdx"/>
+                                <exclude reference="qfC-Fd-QWu"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Welcome" id="3J6-NS-7qN"/>
+                    <navigationItem key="navigationItem" title="Skip" id="631-eH-LW7"/>
+                    <connections>
+                        <outlet property="backgroundImage" destination="L2X-6Z-pSe" id="QEF-Ws-JWA"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OZI-qT-DIA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1143" y="-381"/>
+            <point key="canvasLocation" x="1307" y="-619"/>
         </scene>
         <!--AV Player View Controller-->
         <scene sceneID="HfT-oI-7Pf">
@@ -221,7 +129,7 @@
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="yVR-ln-mvF" customClass="VideoViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zpg-1O-XFp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1843" y="-746.25"/>
+            <point key="canvasLocation" x="2059" y="-595"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WcH-Dn-et1">
@@ -234,7 +142,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JrN-a3-Fy6"/>
+                        <segue destination="2VR-3S-5d4" kind="relationship" relationship="rootViewController" id="C25-7B-ane"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eae-Wz-Il9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -257,13 +165,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have had a long/bad day at work. What would you rather do ?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRy-XL-rhT">
-                                <rect key="frame" x="16" y="114" width="568" height="47"/>
+                                <rect key="frame" x="16" y="114" width="568" height="48"/>
                                 <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xr9-tg-PAm">
-                                <rect key="frame" x="16" y="201" width="568" height="379"/>
+                                <rect key="frame" x="16" y="202" width="568" height="378"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ZTX-d9-aSh">
                                     <size key="itemSize" width="600" height="40"/>
@@ -282,8 +190,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yOQ-QG-FeJ">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqb-FJ-lpA">
-                                                            <rect key="frame" x="10" y="11" width="580" height="19"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqb-FJ-lpA">
+                                                            <rect key="frame" x="10" y="12" width="580" height="17"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -427,13 +335,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Question 1/8" id="uEN-3C-Ogv"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="r7K-WS-Lmp" id="zJM-7b-nVP"/>
                         <outlet property="optionView" destination="xr9-tg-PAm" id="aFt-sD-jDC"/>
                         <outlet property="questionLabel" destination="JRy-XL-rhT" id="Uko-h6-OQs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hmG-S2-IvN" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2108" y="-116"/>
+            <point key="canvasLocation" x="2092" y="66"/>
         </scene>
         <!--Question 2/8-->
         <scene sceneID="hwl-X5-evw">
@@ -451,13 +360,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have had a long/bad day at work. What would you rather do ?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P80-a3-tXi">
-                                <rect key="frame" x="16" y="114" width="568" height="47"/>
+                                <rect key="frame" x="16" y="114" width="568" height="48"/>
                                 <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="n0u-6r-u9f">
-                                <rect key="frame" x="16" y="201" width="568" height="379"/>
+                                <rect key="frame" x="16" y="202" width="568" height="378"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="piy-r5-Aok">
                                     <size key="itemSize" width="600" height="40"/>
@@ -476,8 +385,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6C-Tf-iHJ">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK0-rR-S02">
-                                                            <rect key="frame" x="10" y="11" width="580" height="19"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK0-rR-S02">
+                                                            <rect key="frame" x="10" y="12" width="580" height="17"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -626,13 +535,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Question 2/8" id="8zf-x2-jCQ"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="YBR-nR-9OI" id="JUB-hF-fY0"/>
                         <outlet property="optionView" destination="n0u-6r-u9f" id="TLt-id-nEZ"/>
                         <outlet property="questionLabel" destination="P80-a3-tXi" id="dsO-2Z-Nmc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pla-dj-Nq7" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2895" y="-116"/>
+            <point key="canvasLocation" x="2945" y="26"/>
         </scene>
         <!--Question 3/8-->
         <scene sceneID="gSk-Z5-XIc">
@@ -650,13 +560,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have had a long/bad day at work. What would you rather do ?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAp-f0-YDt">
-                                <rect key="frame" x="16" y="114" width="568" height="47"/>
+                                <rect key="frame" x="16" y="114" width="568" height="48"/>
                                 <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="40z-0B-9DW">
-                                <rect key="frame" x="16" y="201" width="568" height="379"/>
+                                <rect key="frame" x="16" y="202" width="568" height="378"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dYE-CQ-bdy">
                                     <size key="itemSize" width="600" height="40"/>
@@ -675,8 +585,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehZ-Eb-JYI">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isD-mL-vek">
-                                                            <rect key="frame" x="10" y="11" width="580" height="18"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isD-mL-vek">
+                                                            <rect key="frame" x="10" y="12" width="580" height="17"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -824,6 +734,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Question 3/8" id="MZv-iC-nUK"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="QoT-WY-P6F" id="dQK-O2-D2E"/>
                         <outlet property="optionView" destination="40z-0B-9DW" id="zla-HE-BHz"/>
                         <outlet property="questionLabel" destination="zAp-f0-YDt" id="ftx-vl-916"/>
                     </connections>
@@ -848,7 +759,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LtW-Gg-mUF">
-                                <rect key="frame" x="16" y="201" width="568" height="379"/>
+                                <rect key="frame" x="16" y="202" width="568" height="378"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="l8j-Tw-HXS">
                                     <size key="itemSize" width="600" height="40"/>
@@ -867,8 +778,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="srg-6t-JBe">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28P-jH-SYq">
-                                                            <rect key="frame" x="10" y="11" width="580" height="18"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28P-jH-SYq">
+                                                            <rect key="frame" x="10" y="12" width="580" height="17"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -960,7 +871,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have had a long/bad day at work. What would you rather do ?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gH-DT-YU2">
-                                <rect key="frame" x="16" y="114" width="568" height="47"/>
+                                <rect key="frame" x="16" y="114" width="568" height="48"/>
                                 <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1017,6 +928,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Question 4/8" id="qqd-QX-8k2"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="mU1-4w-Pcj" id="6WC-5a-iOZ"/>
                         <outlet property="optionView" destination="LtW-Gg-mUF" id="Gnj-wn-bqy"/>
                         <outlet property="questionLabel" destination="3gH-DT-YU2" id="oJs-aT-BZN"/>
                     </connections>
@@ -1041,13 +953,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have had a long/bad day at work. What would you rather do ?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hF2-79-EaW">
-                                <rect key="frame" x="16" y="114" width="568" height="47"/>
+                                <rect key="frame" x="16" y="114" width="568" height="48"/>
                                 <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4fi-Gr-YB2">
-                                <rect key="frame" x="16" y="201" width="568" height="379"/>
+                                <rect key="frame" x="16" y="202" width="568" height="378"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MEW-7V-cBw">
                                     <size key="itemSize" width="600" height="40"/>
@@ -1066,8 +978,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RkT-vt-XtN">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zm-qe-wf8">
-                                                            <rect key="frame" x="10" y="11" width="580" height="18"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zm-qe-wf8">
+                                                            <rect key="frame" x="10" y="12" width="580" height="17"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1213,6 +1125,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Question 5/8" id="wQm-cN-LI0"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="A2X-de-hl2" id="gat-Nw-AZ2"/>
                         <outlet property="optionView" destination="4fi-Gr-YB2" id="fRi-ve-vl4"/>
                         <outlet property="questionLabel" destination="hF2-79-EaW" id="hI3-zw-6bM"/>
                     </connections>
@@ -1237,13 +1150,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have had a long/bad day at work. What would you rather do ?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9N-uQ-nHZ">
-                                <rect key="frame" x="16" y="114" width="568" height="47"/>
+                                <rect key="frame" x="16" y="114" width="568" height="48"/>
                                 <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="O1y-M1-yjU">
-                                <rect key="frame" x="16" y="201" width="568" height="379"/>
+                                <rect key="frame" x="16" y="202" width="568" height="378"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DXH-1a-IqL">
                                     <size key="itemSize" width="600" height="40"/>
@@ -1262,8 +1175,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gbo-cw-eu4">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cM-Ly-0fi">
-                                                            <rect key="frame" x="10" y="11" width="580" height="18"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cM-Ly-0fi">
+                                                            <rect key="frame" x="10" y="12" width="580" height="17"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1406,6 +1319,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Question 6/8" id="gUL-wh-xDu"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="A9A-8E-gHX" id="OpC-y2-5yw"/>
                         <outlet property="optionView" destination="O1y-M1-yjU" id="RVU-Rm-BBp"/>
                         <outlet property="questionLabel" destination="X9N-uQ-nHZ" id="sNJ-Vn-NKj"/>
                     </connections>
@@ -1430,13 +1344,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have had a long/bad day at work. What would you rather do ?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LP-jT-vvT">
-                                <rect key="frame" x="16" y="114" width="568" height="47"/>
+                                <rect key="frame" x="16" y="114" width="568" height="48"/>
                                 <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WYJ-xD-KYg">
-                                <rect key="frame" x="16" y="201" width="568" height="379"/>
+                                <rect key="frame" x="16" y="202" width="568" height="378"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kOe-j6-qYk">
                                     <size key="itemSize" width="600" height="40"/>
@@ -1455,8 +1369,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mT4-EA-7dp">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rY0-NS-Ld6">
-                                                            <rect key="frame" x="10" y="11" width="580" height="18"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rY0-NS-Ld6">
+                                                            <rect key="frame" x="10" y="12" width="580" height="17"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1601,6 +1515,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Question 7/8" id="ZZd-p5-A38"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="Oln-TQ-ni1" id="BUw-zV-IPt"/>
                         <outlet property="optionView" destination="WYJ-xD-KYg" id="hp5-Ul-lMA"/>
                         <outlet property="questionLabel" destination="7LP-jT-vvT" id="GR8-M0-96d"/>
                     </connections>
@@ -1625,13 +1540,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have had a long/bad day at work. What would you rather do ?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cf2-n4-kh0">
-                                <rect key="frame" x="16" y="114" width="568" height="47"/>
+                                <rect key="frame" x="16" y="114" width="568" height="48"/>
                                 <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cF7-Lb-eYB">
-                                <rect key="frame" x="16" y="201" width="568" height="379"/>
+                                <rect key="frame" x="16" y="202" width="568" height="378"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="10" id="ezE-1C-3ve">
                                     <size key="itemSize" width="600" height="40"/>
@@ -1650,8 +1565,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JUJ-y9-0zh">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tnq-ok-iL5">
-                                                            <rect key="frame" x="10" y="11" width="580" height="18"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tnq-ok-iL5">
+                                                            <rect key="frame" x="10" y="12" width="580" height="17"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <fontDescription key="fontDescription" name="FordAntenna-Regular" family="Ford Antenna" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1794,6 +1709,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Question 8/8" id="SlH-xZ-l84"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="qS4-rf-yXb" id="p3P-w7-mAx"/>
                         <outlet property="optionView" destination="cF7-Lb-eYB" id="oJT-fi-lmC"/>
                         <outlet property="questionLabel" destination="cf2-n4-kh0" id="wKo-Dy-PQu"/>
                     </connections>
@@ -1828,7 +1744,7 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="624" id="Dxr-8R-VmJ">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="200"/>
                                     </constraint>
                                     <constraint firstAttribute="width" secondItem="xbL-EP-SLf" secondAttribute="height" multiplier="624:205" id="jc5-le-7MY"/>
                                 </constraints>
@@ -1857,7 +1773,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jmS-Gv-ahK" secondAttribute="height" multiplier="624:205" id="Tm0-a9-5Q7"/>
                                     <constraint firstAttribute="width" constant="624" id="lIA-fW-d0v">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="200"/>
                                     </constraint>
                                 </constraints>
                                 <state key="normal" backgroundImage="participate">
@@ -1885,32 +1801,73 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yca-2p-qme">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="TlU-bx-UVa">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="140"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" secondItem="yca-2p-qme" secondAttribute="height" multiplier="140:73" id="WAy-jh-MAx"/>
+                                </constraints>
+                                <state key="normal" image="Home-icon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="TlU-bx-UVa"/>
+                                        <exclude reference="WAy-jh-MAx"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="TlU-bx-UVa"/>
+                                        <include reference="WAy-jh-MAx"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="Ph7-gg-32g" kind="unwind" unwindAction="unwindToResourceBankView:" id="ksH-WX-HfW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="jmS-Gv-ahK" firstAttribute="leading" secondItem="Sdt-pk-77n" secondAttribute="leadingMargin" constant="100" id="0rb-pR-rn8"/>
+                            <constraint firstItem="jmS-Gv-ahK" firstAttribute="leading" secondItem="Sdt-pk-77n" secondAttribute="leadingMargin" constant="100" id="0rb-pR-rn8">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
                             <constraint firstItem="4PQ-Yj-s1G" firstAttribute="top" secondItem="Sdt-pk-77n" secondAttribute="topMargin" id="541-Ac-0a8"/>
-                            <constraint firstItem="jmS-Gv-ahK" firstAttribute="top" secondItem="Sor-HH-p2r" secondAttribute="bottom" constant="20" id="Ki9-ho-HHO"/>
+                            <constraint firstAttribute="trailing" secondItem="yca-2p-qme" secondAttribute="trailing" id="Jei-xp-6Rb">
+                                <variation key="heightClass=regular-widthClass=regular" constant="-50"/>
+                            </constraint>
+                            <constraint firstItem="jmS-Gv-ahK" firstAttribute="top" secondItem="Sor-HH-p2r" secondAttribute="bottom" constant="20" id="Ki9-ho-HHO">
+                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                            </constraint>
                             <constraint firstAttribute="centerX" secondItem="Sor-HH-p2r" secondAttribute="centerX" id="LFK-DM-XHh"/>
                             <constraint firstAttribute="trailing" secondItem="4PQ-Yj-s1G" secondAttribute="trailing" id="LyW-dQ-2yR"/>
                             <constraint firstItem="Sor-HH-p2r" firstAttribute="leading" secondItem="Sdt-pk-77n" secondAttribute="leadingMargin" constant="100" id="RWa-aN-Wfz">
-                                <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
                             </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="Sor-HH-p2r" secondAttribute="trailing" constant="100" id="VGq-Ir-WoY">
-                                <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
                             </constraint>
                             <constraint firstItem="jmS-Gv-ahK" firstAttribute="width" secondItem="jmS-Gv-ahK" secondAttribute="height" multiplier="624:205" id="XsK-FZ-HlQ"/>
                             <constraint firstItem="79i-0S-HLl" firstAttribute="top" secondItem="4PQ-Yj-s1G" secondAttribute="bottom" id="dAq-KZ-dzL"/>
+                            <constraint firstItem="yca-2p-qme" firstAttribute="top" secondItem="akC-Zz-FYS" secondAttribute="bottom" constant="20" id="dGI-aY-1Et"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4PQ-Yj-s1G" secondAttribute="trailing" id="gFk-e1-Qab"/>
                             <constraint firstItem="4PQ-Yj-s1G" firstAttribute="leading" secondItem="Sdt-pk-77n" secondAttribute="leadingMargin" id="gi5-4i-MJw"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xbL-EP-SLf" secondAttribute="trailing" constant="100" id="h5h-uM-8Sj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xbL-EP-SLf" secondAttribute="trailing" constant="100" id="h5h-uM-8Sj">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
                             <constraint firstItem="Sor-HH-p2r" firstAttribute="top" secondItem="bDG-1Y-v2v" secondAttribute="bottom" constant="20" id="ikC-fX-IAz"/>
+                            <constraint firstItem="yca-2p-qme" firstAttribute="top" secondItem="akC-Zz-FYS" secondAttribute="bottom" id="m3n-r4-qGI"/>
                             <constraint firstItem="79i-0S-HLl" firstAttribute="top" secondItem="4PQ-Yj-s1G" secondAttribute="bottom" id="mmB-Pz-1uP"/>
                             <constraint firstItem="4PQ-Yj-s1G" firstAttribute="leading" secondItem="Sdt-pk-77n" secondAttribute="leading" id="nRG-06-r9b"/>
                             <constraint firstAttribute="centerX" secondItem="bDG-1Y-v2v" secondAttribute="centerX" id="tpq-vW-zyf"/>
                             <constraint firstItem="4PQ-Yj-s1G" firstAttribute="top" secondItem="Sdt-pk-77n" secondAttribute="top" id="wqU-3g-wn1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yca-2p-qme" secondAttribute="trailing" id="xdO-wN-iyY"/>
                             <constraint firstItem="bDG-1Y-v2v" firstAttribute="top" secondItem="akC-Zz-FYS" secondAttribute="bottom" constant="200" id="xgJ-aJ-yhw"/>
-                            <constraint firstItem="xbL-EP-SLf" firstAttribute="top" secondItem="Sor-HH-p2r" secondAttribute="bottom" constant="20" id="yHK-Fj-aAM"/>
+                            <constraint firstItem="xbL-EP-SLf" firstAttribute="top" secondItem="Sor-HH-p2r" secondAttribute="bottom" constant="20" id="yHK-Fj-aAM">
+                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                            </constraint>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -1919,6 +1876,7 @@
                                 <exclude reference="xbL-EP-SLf"/>
                                 <exclude reference="jmS-Gv-ahK"/>
                                 <exclude reference="bDG-1Y-v2v"/>
+                                <exclude reference="yca-2p-qme"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="dAq-KZ-dzL"/>
@@ -1934,6 +1892,10 @@
                                 <exclude reference="XsK-FZ-HlQ"/>
                                 <exclude reference="h5h-uM-8Sj"/>
                                 <exclude reference="yHK-Fj-aAM"/>
+                                <exclude reference="Jei-xp-6Rb"/>
+                                <exclude reference="dGI-aY-1Et"/>
+                                <exclude reference="m3n-r4-qGI"/>
+                                <exclude reference="xdO-wN-iyY"/>
                                 <exclude reference="541-Ac-0a8"/>
                                 <exclude reference="LyW-dQ-2yR"/>
                                 <exclude reference="gFk-e1-Qab"/>
@@ -1963,6 +1925,7 @@
                                 <include reference="xbL-EP-SLf"/>
                                 <include reference="jmS-Gv-ahK"/>
                                 <include reference="bDG-1Y-v2v"/>
+                                <include reference="yca-2p-qme"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="LFK-DM-XHh"/>
@@ -1976,24 +1939,34 @@
                                 <include reference="XsK-FZ-HlQ"/>
                                 <include reference="h5h-uM-8Sj"/>
                                 <include reference="yHK-Fj-aAM"/>
+                                <include reference="Jei-xp-6Rb"/>
+                                <exclude reference="dGI-aY-1Et"/>
+                                <include reference="m3n-r4-qGI"/>
+                                <exclude reference="xdO-wN-iyY"/>
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="le6-Nc-Gv0"/>
+                    <connections>
+                        <outlet property="typeLabel" destination="bDG-1Y-v2v" id="GLK-33-QpJ"/>
+                        <outlet property="valueLabel" destination="Sor-HH-p2r" id="3Dh-ae-chv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NXD-nq-MTF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Ph7-gg-32g" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="7905" y="-116.25"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="Nps-fS-r3F">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ULe-vA-f57" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Yxn-8X-j2y" customClass="WebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="P2T-WP-Eas"/>
                         <viewControllerLayoutGuide type="bottom" id="26N-cq-5KF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nMP-SB-39K">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="23Y-Yy-tK1">
@@ -2070,6 +2043,10 @@
                                 <exclude reference="cgQ-bd-70N"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="UzV-a8-YfC"/>
+                                <exclude reference="f7A-L2-hp3"/>
+                                <exclude reference="HSV-Qi-4hw"/>
+                                <exclude reference="Mc1-xI-8fY"/>
                                 <exclude reference="ZBd-Z1-L21"/>
                                 <exclude reference="x5D-cc-Ou1"/>
                                 <exclude reference="7I6-qz-qHN"/>
@@ -2080,10 +2057,6 @@
                                 <exclude reference="xYT-cv-8yo"/>
                                 <exclude reference="8bY-fv-Pbs"/>
                                 <exclude reference="fzm-y7-T3v"/>
-                                <exclude reference="HSV-Qi-4hw"/>
-                                <exclude reference="Mc1-xI-8fY"/>
-                                <exclude reference="UzV-a8-YfC"/>
-                                <exclude reference="f7A-L2-hp3"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -2094,6 +2067,10 @@
                                 <include reference="cgQ-bd-70N"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="UzV-a8-YfC"/>
+                                <include reference="f7A-L2-hp3"/>
+                                <include reference="HSV-Qi-4hw"/>
+                                <include reference="Mc1-xI-8fY"/>
                                 <include reference="ZBd-Z1-L21"/>
                                 <include reference="x5D-cc-Ou1"/>
                                 <exclude reference="7I6-qz-qHN"/>
@@ -2104,10 +2081,6 @@
                                 <include reference="xYT-cv-8yo"/>
                                 <include reference="8bY-fv-Pbs"/>
                                 <include reference="fzm-y7-T3v"/>
-                                <include reference="HSV-Qi-4hw"/>
-                                <include reference="Mc1-xI-8fY"/>
-                                <exclude reference="UzV-a8-YfC"/>
-                                <include reference="f7A-L2-hp3"/>
                             </mask>
                         </variation>
                     </view>
@@ -2117,15 +2090,17 @@
                         <outlet property="webView" destination="23Y-Yy-tK1" id="bkp-Ay-ZL0"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ULe-vA-f57" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8667.75" y="-90.75"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Home-icon" width="225" height="146"/>
         <image name="WDY-logo" width="540" height="600"/>
         <image name="background" width="2038" height="1536"/>
-        <image name="informed" width="624" height="205"/>
-        <image name="main-background" width="2040" height="1539"/>
+        <image name="informed" width="641" height="225"/>
+        <image name="main-background" width="1020" height="769"/>
         <image name="meter-icon-1" width="1916" height="92"/>
         <image name="meter-icon-2" width="1916" height="92"/>
         <image name="meter-icon-3" width="1916" height="92"/>
@@ -2135,12 +2110,11 @@
         <image name="meter-icon-7" width="1916" height="92"/>
         <image name="meter-icon-8" width="1916" height="92"/>
         <image name="next-button" width="318" height="142"/>
-        <image name="participate" width="702" height="250"/>
+        <image name="participate" width="665" height="225"/>
         <image name="play-quiz-button" width="508" height="208"/>
         <image name="watch-video-icon" width="508" height="208"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qqe-w7-Lh5"/>
         <segue reference="zOd-DN-r3f"/>
     </inferredMetricsTieBreakers>
 </document>

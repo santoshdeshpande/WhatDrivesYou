@@ -11,5 +11,5 @@
 @interface OptionCollectionViewCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIView *optionView;
 @property (weak, nonatomic) IBOutlet UILabel *optionLabel;
-
+@property NSInteger points;
 @end

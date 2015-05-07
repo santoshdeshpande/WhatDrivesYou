@@ -12,6 +12,7 @@
 @interface BaseQuestionViewController ()
 @property NSArray *options;
 @property NSArray *questions;
+@property NSArray *answerKeys;
 @property UIColor *backgroundColor;
 @end
 
@@ -25,21 +26,23 @@
     self.optionView.delegate = self;
     self.optionView.dataSource = self;
     self.currentSelection = -1;
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Questions" ofType:@"plist"];
-    self.questions = [NSMutableArray arrayWithContentsOfFile:path];
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"Questions" ofType:@"plist"];
+    self.questions = [[NSUserDefaults standardUserDefaults] objectForKey:@"Questions"];
     NSInteger tag = self.view.tag;
     NSDictionary *dict = [self.questions objectAtIndex:tag];
     self.options = [dict objectForKey:@"Options"];
+    self.answerKeys = [dict objectForKey:@"AnswerKeys"];
     self.questionLabel.text = [dict objectForKey:@"Question"];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     [self updateSelection];
+    [self setupImage1];    
 //    [self.navigationItem setHidesBackButton:YES];
-
 }
 
 -(void)viewDidAppear:(BOOL)animated {
     
     [super viewDidAppear:YES];
+    [self setupImage1];
 //    [self.navigationItem setHidesBackButton:YES];
 
 }
@@ -58,6 +61,7 @@
     static NSString *identifier = @"questionCell";
     OptionCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
     cell.optionLabel.text = [self.options objectAtIndex:indexPath.row];
+    cell.points = [[self.answerKeys objectAtIndex:indexPath.row] intValue];
     cell.optionView.layer.borderWidth = 1.0f;
     cell.optionView.layer.borderColor = [UIColor whiteColor].CGColor;
     return cell;
@@ -67,7 +71,6 @@
     if(self.currentSelection != -1) {
         NSIndexPath *path = [NSIndexPath indexPathForItem:self.currentSelection inSection:0];
         OptionCollectionViewCell *previous = (OptionCollectionViewCell*) [collectionView cellForItemAtIndexPath:path];
-        NSLog(@"Previous - %@",previous);
         previous.optionView.backgroundColor = [UIColor clearColor];
     }
     OptionCollectionViewCell *cell = (OptionCollectionViewCell*) [collectionView cellForItemAtIndexPath:indexPath];
@@ -75,10 +78,30 @@
     [self setCurrentSelection:indexPath.row];
     NSInteger tag = self.view.tag;
     NSString *key = [NSString stringWithFormat:@"answer-%ld", (long)tag];
-
+    
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
     [defaults setInteger:indexPath.row+1 forKey:key];
+    NSInteger numberOfPoints = cell.points;
+//    NSArray *array = (NSArray *) [defaults objectForKey:@"Points"];
+    NSMutableArray *array = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"Points"]];
+    NSString *points = [NSString stringWithFormat:@"%d", numberOfPoints];
+    [array replaceObjectAtIndex:tag withObject:points];
+    [defaults setObject:array forKey:@"Points"];
+    NSLog(@"Array - %@",array);
+    /*if(numberOfPoints == 2) {
+        long current = [defaults integerForKey:@"NumberOfTwos"];
+        NSString *answerPattern = [defaults objectForKey:@"AnswerPattern"];
+        if(current < 4) {
+            [defaults setInteger:current+1 forKey:@"NumberOfTwos"];
+            NSString *option = [self.optionKey objectAtIndex:indexPath.row];
+            if([answerPattern containsString:option] == FALSE) {
+                NSString *newPattern = [answerPattern stringByAppendingString:option];
+                NSLog(@"Pattern - %@",newPattern);
+                [defaults setObject:newPattern forKey:@"AnswerPattern"];                
+            }
+        }
+    }*/
     if(self.validationLabel) {
         [self.validationLabel setHidden:YES];
     }
@@ -125,5 +148,40 @@
     }
     return YES;
 }
+
+- (void) viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    [self setupImage];
+}
+
+- (void) setupImage {
+    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+    NSLog(@"Orientation - %ld",orientation);
+    switch ((long)orientation) {
+        case UIInterfaceOrientationPortrait:
+        case UIInterfaceOrientationPortraitUpsideDown:
+            [self.backgroundImage setImage:[UIImage imageNamed:@"background"]];
+            break;
+        case UIInterfaceOrientationLandscapeLeft:
+        case UIInterfaceOrientationLandscapeRight:
+            [self.backgroundImage setImage:[UIImage imageNamed:@"Background-image-portrait-2"]];
+            break;
+    }
+}
+
+- (void) setupImage1 {
+    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+    NSLog(@"Orientation - %ld",orientation);
+    switch ((long)orientation) {
+        case UIInterfaceOrientationPortrait:
+        case UIInterfaceOrientationPortraitUpsideDown:
+            [self.backgroundImage setImage:[UIImage imageNamed:@"Background-image-portrait-2"]];
+            break;
+        case UIInterfaceOrientationLandscapeLeft:
+        case UIInterfaceOrientationLandscapeRight:
+            [self.backgroundImage setImage:[UIImage imageNamed:@"background"]];
+            break;
+    }
+}
+
 
 @end
