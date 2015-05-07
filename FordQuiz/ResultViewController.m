@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupImage1];
     self.optionKey = @[@"C ",@"I ",@"P ",@"A ",@"T ",@"R ",@"U "];
     NSDictionary *types = @{@"C" : @"Creativity",@"I":@"Innovation",@"P":@"Pride",@"A":@"Ambition",@"T":@"Togetherness",@"R":@"Responsibility",@"U":@"Trust"};
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -70,8 +71,42 @@
         WebViewController *controller = (WebViewController *)[segue destinationViewController];
         controller.urlLink = @"https://www.india.ford.com/cars/figoaspire/kmi?ctx=m:1249148574862-roadshow";
     }
-    
-    
 }
+
+- (void) viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    [self setupImage];
+}
+
+- (void) setupImage {
+    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+    NSLog(@"Orientation - %ld",orientation);
+    switch ((long)orientation) {
+        case UIInterfaceOrientationPortrait:
+        case UIInterfaceOrientationPortraitUpsideDown:
+            [self.backgroundImage setImage:[UIImage imageNamed:@"background"]];
+            break;
+        case UIInterfaceOrientationLandscapeLeft:
+        case UIInterfaceOrientationLandscapeRight:
+            [self.backgroundImage setImage:[UIImage imageNamed:@"Background-image-portrait-2"]];
+            break;
+    }
+}
+
+- (void) setupImage1 {
+    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+    NSLog(@"Orientation - %ld",orientation);
+    switch ((long)orientation) {
+        case UIInterfaceOrientationPortrait:
+        case UIInterfaceOrientationPortraitUpsideDown:
+            [self.backgroundImage setImage:[UIImage imageNamed:@"Background-image-portrait-2"]];
+            break;
+        case UIInterfaceOrientationLandscapeLeft:
+        case UIInterfaceOrientationLandscapeRight:
+            [self.backgroundImage setImage:[UIImage imageNamed:@"background"]];
+            break;
+    }
+}
+
+
 
 @end

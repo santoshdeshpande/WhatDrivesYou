@@ -1948,6 +1948,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="le6-Nc-Gv0"/>
                     <connections>
+                        <outlet property="backgroundImage" destination="4PQ-Yj-s1G" id="44t-uu-qEQ"/>
                         <outlet property="typeLabel" destination="bDG-1Y-v2v" id="GLK-33-QpJ"/>
                         <outlet property="valueLabel" destination="Sor-HH-p2r" id="3Dh-ae-chv"/>
                     </connections>

@@ -11,4 +11,5 @@
 @interface ResultViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *typeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *valueLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
 @end
