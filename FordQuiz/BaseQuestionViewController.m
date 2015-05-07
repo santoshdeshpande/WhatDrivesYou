@@ -12,12 +12,15 @@
 @interface BaseQuestionViewController ()
 @property NSArray *options;
 @property NSArray *questions;
+@property UIColor *backgroundColor;
 @end
 
 @implementation BaseQuestionViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.backgroundColor = [UIColor colorWithRed:(229/255.0f) green:(45/255.0f) blue:(61/255.0f) alpha:1.0];
     // Do any additional setup after loading the view.
     self.optionView.delegate = self;
     self.optionView.dataSource = self;
@@ -68,7 +71,7 @@
         previous.optionView.backgroundColor = [UIColor clearColor];
     }
     OptionCollectionViewCell *cell = (OptionCollectionViewCell*) [collectionView cellForItemAtIndexPath:indexPath];
-    cell.optionView.backgroundColor = [UIColor redColor];
+    cell.optionView.backgroundColor = self.backgroundColor;
     [self setCurrentSelection:indexPath.row];
     NSInteger tag = self.view.tag;
     NSString *key = [NSString stringWithFormat:@"answer-%ld", (long)tag];
@@ -94,7 +97,7 @@
             [self.optionView layoutIfNeeded];
             cell = (OptionCollectionViewCell*)[self.optionView cellForItemAtIndexPath:path];
         }
-        cell.optionView.backgroundColor = [UIColor redColor];
+        cell.optionView.backgroundColor = self.backgroundColor;
     }
     
     if(self.validationLabel) {

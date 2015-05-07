@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSURL * urlA1 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Commercial"ofType:@"mp4"]];
+    NSURL * urlA1 = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Commercial1"ofType:@"mov"]];
     
     self.player = [AVPlayer playerWithURL:urlA1];
     [self setShowsPlaybackControls:NO];

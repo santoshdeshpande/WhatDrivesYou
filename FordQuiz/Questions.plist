@@ -3,6 +3,16 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>AnswerKeys</key>
+		<array>
+			<string>2</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+		</array>
 		<key>Options</key>
 		<array>
 			<string>Unwind and listen to some good music</string>
@@ -27,6 +37,16 @@
 			<string>Provide with stability and security</string>
 			<string>Enable you to achieve your life goals</string>
 		</array>
+		<key>AnswerKeys</key>
+		<array>
+			<string>1</string>
+			<string>2</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+		</array>
 		<key>Question</key>
 		<string>Your perfect job would</string>
 	</dict>
@@ -40,6 +60,16 @@
 			<string>Allow you a good work and personal life balance</string>
 			<string>You would take the money and help feed the homeless</string>
 			<string>A formal sit down dinner</string>
+		</array>
+		<key>AnswerKeys</key>
+		<array>
+			<string>1</string>
+			<string>1</string>
+			<string>2</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
 		</array>
 		<key>Question</key>
 		<string>You have to organize a get together, you would rather</string>
@@ -55,6 +85,16 @@
 			<string>The ability to ensure the safety and comfort of the family</string>
 			<string>Have their own opinions about things</string>
 		</array>
+		<key>AnswerKeys</key>
+		<array>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>2</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+		</array>
 		<key>Question</key>
 		<string>A must have attribute in your partner is</string>
 	</dict>
@@ -68,6 +108,16 @@
 			<string>A family holiday by the sea -side</string>
 			<string>Visiting under-developed countries and volunteering at humanitarian organisations</string>
 			<string>A fully-planned holiday with a detailed itineary</string>
+		</array>
+		<key>AnswerKeys</key>
+		<array>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>2</string>
+			<string>1</string>
+			<string>1</string>
 		</array>
 		<key>Question</key>
 		<string>Your ideal vacation would be</string>
@@ -83,6 +133,16 @@
 			<string>a Doctor</string>
 			<string>an Athlete</string>
 		</array>
+		<key>AnswerKeys</key>
+		<array>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>2</string>
+			<string>1</string>
+		</array>
 		<key>Question</key>
 		<string>If you had to select a profession from below, what would you be</string>
 	</dict>
@@ -97,6 +157,16 @@
 			<string>Put the money into the bank as a saving for a rainy day</string>
 			<string>Make a purchase of an item that you had carefully evaluated and planned on purchasing</string>
 		</array>
+		<key>AnswerKeys</key>
+		<array>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>2</string>
+		</array>
 		<key>Question</key>
 		<string>If you unexpectedly receive Rs. 50,000 you would</string>
 	</dict>
@@ -110,6 +180,16 @@
 			<string>You take the time to call your family and friends and chat with them</string>
 			<string>You call your family to let them know about the delay and then sit back and wait patiently</string>
 			<string>You get frustrated, however, you sit down and start working so that you can make up for the time you are loosing</string>
+		</array>
+		<key>AnswerKeys</key>
+		<array>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>1</string>
+			<string>2</string>
 		</array>
 		<key>Question</key>
 		<string>You have to fly to another city for work and you arrive at the airport only to find your flight has been delayed by 3 hours, you would</string>

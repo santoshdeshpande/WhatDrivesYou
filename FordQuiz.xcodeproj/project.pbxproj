@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0EEDA71AFA650400583CC2 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EEDA61AFA650400583CC2 /* ResultViewController.m */; };
+		3A0EEDAA1AFA66C900583CC2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EEDA91AFA66C900583CC2 /* WebViewController.m */; };
 		3AE23E5D1AF7B01D00939315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E5C1AF7B01D00939315 /* main.m */; };
 		3AE23E601AF7B01D00939315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E5F1AF7B01D00939315 /* AppDelegate.m */; };
 		3AE23E631AF7B01D00939315 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E621AF7B01D00939315 /* ViewController.m */; };
@@ -17,12 +19,84 @@
 		3AE23E831AF7B69C00939315 /* BaseQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E821AF7B69C00939315 /* BaseQuestionViewController.m */; };
 		3AE23E871AF7BB2E00939315 /* OptionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E861AF7BB2E00939315 /* OptionCollectionViewCell.m */; };
 		3AE23E8A1AF8143F00939315 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E891AF8143F00939315 /* VideoViewController.m */; };
-		3AE23E8F1AF817E200939315 /* Commercial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23E8C1AF8148D00939315 /* Commercial.mp4 */; };
 		3AE23E911AF818C500939315 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE23E901AF818C500939315 /* AVKit.framework */; };
 		3AE23E931AF83A1900939315 /* QuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23E921AF83A1900939315 /* QuestionView.xib */; };
 		3AE23E961AF83B9400939315 /* QuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23E951AF83B9400939315 /* QuestionView.m */; };
 		3AE23EAD1AF854F300939315 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE23EAC1AF854F300939315 /* WelcomeViewController.m */; };
 		3AE23EAF1AF858F900939315 /* Questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EAE1AF858F900939315 /* Questions.plist */; };
+		3AE23F311AFA154700939315 /* Antenna Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EE91AFA154600939315 /* Antenna Black.otf */; };
+		3AE23F321AFA154700939315 /* Antenna BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EEA1AFA154700939315 /* Antenna BlackItalic.otf */; };
+		3AE23F331AFA154700939315 /* Antenna Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EEB1AFA154700939315 /* Antenna Bold.otf */; };
+		3AE23F341AFA154700939315 /* Antenna BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EEC1AFA154700939315 /* Antenna BoldItalic.otf */; };
+		3AE23F351AFA154700939315 /* Antenna Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EED1AFA154700939315 /* Antenna Light.otf */; };
+		3AE23F361AFA154700939315 /* Antenna LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EEE1AFA154700939315 /* Antenna LightItalic.otf */; };
+		3AE23F371AFA154700939315 /* Antenna Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EEF1AFA154700939315 /* Antenna Medium.otf */; };
+		3AE23F381AFA154700939315 /* Antenna Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF01AFA154700939315 /* Antenna Regular.otf */; };
+		3AE23F391AFA154700939315 /* Antenna RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF11AFA154700939315 /* Antenna RegularItalic.otf */; };
+		3AE23F3A1AFA154700939315 /* AntennaCond Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF21AFA154700939315 /* AntennaCond Light.otf */; };
+		3AE23F3B1AFA154700939315 /* FordAntennaCompWGL-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF31AFA154700939315 /* FordAntennaCompWGL-Black.otf */; };
+		3AE23F3C1AFA154700939315 /* FordAntennaCompWGL-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF41AFA154700939315 /* FordAntennaCompWGL-BlackItalic.otf */; };
+		3AE23F3D1AFA154700939315 /* FordAntennaCompWGL-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF51AFA154700939315 /* FordAntennaCompWGL-Bold.otf */; };
+		3AE23F3E1AFA154700939315 /* FordAntennaCompWGL-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF61AFA154700939315 /* FordAntennaCompWGL-BoldItalic.otf */; };
+		3AE23F3F1AFA154700939315 /* FordAntennaCompWGL-ExtLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF71AFA154700939315 /* FordAntennaCompWGL-ExtLight.otf */; };
+		3AE23F401AFA154700939315 /* FordAntennaCompWGL-ExtLigIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF81AFA154700939315 /* FordAntennaCompWGL-ExtLigIt.otf */; };
+		3AE23F411AFA154700939315 /* FordAntennaCompWGL-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EF91AFA154700939315 /* FordAntennaCompWGL-Light.otf */; };
+		3AE23F421AFA154700939315 /* FordAntennaCompWGL-LightIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EFA1AFA154700939315 /* FordAntennaCompWGL-LightIta.otf */; };
+		3AE23F431AFA154700939315 /* FordAntennaCompWGL-Med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EFB1AFA154700939315 /* FordAntennaCompWGL-Med.otf */; };
+		3AE23F441AFA154700939315 /* FordAntennaCompWGL-MedItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EFC1AFA154700939315 /* FordAntennaCompWGL-MedItalic.otf */; };
+		3AE23F451AFA154700939315 /* FordAntennaCompWGL-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EFD1AFA154700939315 /* FordAntennaCompWGL-Reg.otf */; };
+		3AE23F461AFA154700939315 /* FordAntennaCompWGL-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EFE1AFA154700939315 /* FordAntennaCompWGL-RegItalic.otf */; };
+		3AE23F471AFA154700939315 /* FordAntennaCompWGL-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23EFF1AFA154700939315 /* FordAntennaCompWGL-Semibold.otf */; };
+		3AE23F481AFA154700939315 /* FordAntennaCompWGL-SemiboldIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F001AFA154700939315 /* FordAntennaCompWGL-SemiboldIta.otf */; };
+		3AE23F491AFA154700939315 /* FordAntennaCompWGL-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F011AFA154700939315 /* FordAntennaCompWGL-Thin.otf */; };
+		3AE23F4A1AFA154700939315 /* FordAntennaCompWGL-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F021AFA154700939315 /* FordAntennaCompWGL-ThinItalic.otf */; };
+		3AE23F4B1AFA154700939315 /* FordAntennaCondWGL-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F031AFA154700939315 /* FordAntennaCondWGL-Black.otf */; };
+		3AE23F4C1AFA154700939315 /* FordAntennaCondWGL-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F041AFA154700939315 /* FordAntennaCondWGL-BlackItalic.otf */; };
+		3AE23F4D1AFA154700939315 /* FordAntennaCondWGL-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F051AFA154700939315 /* FordAntennaCondWGL-Bold.otf */; };
+		3AE23F4E1AFA154700939315 /* FordAntennaCondWGL-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F061AFA154700939315 /* FordAntennaCondWGL-BoldItalic.otf */; };
+		3AE23F4F1AFA154700939315 /* FordAntennaCondWGL-ExtLightIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F071AFA154700939315 /* FordAntennaCondWGL-ExtLightIta.otf */; };
+		3AE23F501AFA154700939315 /* FordAntennaCondWGL-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F081AFA154700939315 /* FordAntennaCondWGL-ExtraLight.otf */; };
+		3AE23F511AFA154700939315 /* FordAntennaCondWGL-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F091AFA154700939315 /* FordAntennaCondWGL-Light.otf */; };
+		3AE23F521AFA154700939315 /* FordAntennaCondWGL-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F0A1AFA154700939315 /* FordAntennaCondWGL-LightItalic.otf */; };
+		3AE23F531AFA154700939315 /* FordAntennaCondWGL-Med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F0B1AFA154700939315 /* FordAntennaCondWGL-Med.otf */; };
+		3AE23F541AFA154700939315 /* FordAntennaCondWGL-MedItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F0C1AFA154700939315 /* FordAntennaCondWGL-MedItalic.otf */; };
+		3AE23F551AFA154700939315 /* FordAntennaCondWGL-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F0D1AFA154700939315 /* FordAntennaCondWGL-Reg.otf */; };
+		3AE23F561AFA154700939315 /* FordAntennaCondWGL-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F0E1AFA154700939315 /* FordAntennaCondWGL-RegItalic.otf */; };
+		3AE23F571AFA154700939315 /* FordAntennaCondWGL-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F0F1AFA154700939315 /* FordAntennaCondWGL-Thin.otf */; };
+		3AE23F581AFA154700939315 /* FordAntennaCondWGL-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F101AFA154700939315 /* FordAntennaCondWGL-ThinItalic.otf */; };
+		3AE23F591AFA154700939315 /* FordAntennaExtraCondWGL-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F111AFA154700939315 /* FordAntennaExtraCondWGL-Black.otf */; };
+		3AE23F5A1AFA154700939315 /* FordAntennaExtraCondWGL-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F121AFA154700939315 /* FordAntennaExtraCondWGL-BlackIt.otf */; };
+		3AE23F5B1AFA154700939315 /* FordAntennaExtraCondWGL-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F131AFA154700939315 /* FordAntennaExtraCondWGL-Bold.otf */; };
+		3AE23F5C1AFA154700939315 /* FordAntennaExtraCondWGL-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F141AFA154700939315 /* FordAntennaExtraCondWGL-BoldIt.otf */; };
+		3AE23F5D1AFA154700939315 /* FordAntennaExtraCondWGL-ExtLig.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F151AFA154700939315 /* FordAntennaExtraCondWGL-ExtLig.otf */; };
+		3AE23F5E1AFA154700939315 /* FordAntennaExtraCondWGL-ExtLigIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F161AFA154700939315 /* FordAntennaExtraCondWGL-ExtLigIt.otf */; };
+		3AE23F5F1AFA154700939315 /* FordAntennaExtraCondWGL-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F171AFA154700939315 /* FordAntennaExtraCondWGL-Light.otf */; };
+		3AE23F601AFA154700939315 /* FordAntennaExtraCondWGL-LigIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F181AFA154700939315 /* FordAntennaExtraCondWGL-LigIt.otf */; };
+		3AE23F611AFA154700939315 /* FordAntennaExtraCondWGL-Med.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F191AFA154700939315 /* FordAntennaExtraCondWGL-Med.otf */; };
+		3AE23F621AFA154700939315 /* FordAntennaExtraCondWGL-MedIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F1A1AFA154700939315 /* FordAntennaExtraCondWGL-MedIt.otf */; };
+		3AE23F631AFA154700939315 /* FordAntennaExtraCondWGL-Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F1B1AFA154700939315 /* FordAntennaExtraCondWGL-Reg.otf */; };
+		3AE23F641AFA154700939315 /* FordAntennaExtraCondWGL-RegIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F1C1AFA154700939315 /* FordAntennaExtraCondWGL-RegIta.otf */; };
+		3AE23F651AFA154700939315 /* FordAntennaExtraCondWGL-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F1D1AFA154700939315 /* FordAntennaExtraCondWGL-Semibold.otf */; };
+		3AE23F661AFA154700939315 /* FordAntennaExtraCondWGL-SemiboldIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F1E1AFA154700939315 /* FordAntennaExtraCondWGL-SemiboldIta.otf */; };
+		3AE23F671AFA154700939315 /* FordAntennaExtraCondWGL-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F1F1AFA154700939315 /* FordAntennaExtraCondWGL-Thin.otf */; };
+		3AE23F681AFA154700939315 /* FordAntennaExtraCondWGL-ThinIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F201AFA154700939315 /* FordAntennaExtraCondWGL-ThinIta.otf */; };
+		3AE23F691AFA154700939315 /* FordAntennaWGL-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F211AFA154700939315 /* FordAntennaWGL-Black.otf */; };
+		3AE23F6A1AFA154700939315 /* FordAntennaWGL-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F221AFA154700939315 /* FordAntennaWGL-BlackItalic.otf */; };
+		3AE23F6B1AFA154700939315 /* FordAntennaWGL-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F231AFA154700939315 /* FordAntennaWGL-Bold.otf */; };
+		3AE23F6C1AFA154700939315 /* FordAntennaWGL-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F241AFA154700939315 /* FordAntennaWGL-BoldItalic.otf */; };
+		3AE23F6D1AFA154700939315 /* FordAntennaWGL-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F251AFA154700939315 /* FordAntennaWGL-ExtraLight.otf */; };
+		3AE23F6E1AFA154700939315 /* FordAntennaWGL-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F261AFA154700939315 /* FordAntennaWGL-ExtraLightItalic.otf */; };
+		3AE23F6F1AFA154700939315 /* FordAntennaWGL-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F271AFA154700939315 /* FordAntennaWGL-Light.otf */; };
+		3AE23F701AFA154700939315 /* FordAntennaWGL-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F281AFA154700939315 /* FordAntennaWGL-LightItalic.otf */; };
+		3AE23F711AFA154700939315 /* FordAntennaWGL-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F291AFA154700939315 /* FordAntennaWGL-Medium.otf */; };
+		3AE23F721AFA154700939315 /* FordAntennaWGL-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F2A1AFA154700939315 /* FordAntennaWGL-MediumItalic.otf */; };
+		3AE23F731AFA154700939315 /* FordAntennaWGL-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F2B1AFA154700939315 /* FordAntennaWGL-Regular.otf */; };
+		3AE23F741AFA154700939315 /* FordAntennaWGL-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F2C1AFA154700939315 /* FordAntennaWGL-RegularItalic.otf */; };
+		3AE23F751AFA154700939315 /* FordAntennaWGL-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F2D1AFA154700939315 /* FordAntennaWGL-Semibold.otf */; };
+		3AE23F761AFA154700939315 /* FordAntennaWGL-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F2E1AFA154700939315 /* FordAntennaWGL-SemiboldItalic.otf */; };
+		3AE23F771AFA154700939315 /* FordAntennaWGL-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F2F1AFA154700939315 /* FordAntennaWGL-Thin.otf */; };
+		3AE23F781AFA154700939315 /* FordAntennaWGL-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F301AFA154700939315 /* FordAntennaWGL-ThinItalic.otf */; };
+		3AE23F7A1AFA4A5E00939315 /* Commercial1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3AE23F791AFA4A5E00939315 /* Commercial1.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +110,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A0EEDA51AFA650400583CC2 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		3A0EEDA61AFA650400583CC2 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		3A0EEDA81AFA66C900583CC2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		3A0EEDA91AFA66C900583CC2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		3AE23E571AF7B01D00939315 /* FordQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FordQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE23E5B1AF7B01D00939315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE23E5C1AF7B01D00939315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,7 +133,6 @@
 		3AE23E861AF7BB2E00939315 /* OptionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionCollectionViewCell.m; sourceTree = "<group>"; };
 		3AE23E881AF8143F00939315 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		3AE23E891AF8143F00939315 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
-		3AE23E8C1AF8148D00939315 /* Commercial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Commercial.mp4; sourceTree = "<group>"; };
 		3AE23E8D1AF8151A00939315 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		3AE23E901AF818C500939315 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		3AE23E921AF83A1900939315 /* QuestionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionView.xib; sourceTree = "<group>"; };
@@ -64,6 +141,79 @@
 		3AE23EAB1AF854F300939315 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		3AE23EAC1AF854F300939315 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		3AE23EAE1AF858F900939315 /* Questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Questions.plist; sourceTree = "<group>"; };
+		3AE23EE91AFA154600939315 /* Antenna Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antenna Black.otf"; sourceTree = "<group>"; };
+		3AE23EEA1AFA154700939315 /* Antenna BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antenna BlackItalic.otf"; sourceTree = "<group>"; };
+		3AE23EEB1AFA154700939315 /* Antenna Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antenna Bold.otf"; sourceTree = "<group>"; };
+		3AE23EEC1AFA154700939315 /* Antenna BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antenna BoldItalic.otf"; sourceTree = "<group>"; };
+		3AE23EED1AFA154700939315 /* Antenna Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antenna Light.otf"; sourceTree = "<group>"; };
+		3AE23EEE1AFA154700939315 /* Antenna LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antenna LightItalic.otf"; sourceTree = "<group>"; };
+		3AE23EEF1AFA154700939315 /* Antenna Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antenna Medium.otf"; sourceTree = "<group>"; };
+		3AE23EF01AFA154700939315 /* Antenna Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antenna Regular.otf"; sourceTree = "<group>"; };
+		3AE23EF11AFA154700939315 /* Antenna RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Antenna RegularItalic.otf"; sourceTree = "<group>"; };
+		3AE23EF21AFA154700939315 /* AntennaCond Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AntennaCond Light.otf"; sourceTree = "<group>"; };
+		3AE23EF31AFA154700939315 /* FordAntennaCompWGL-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-Black.otf"; sourceTree = "<group>"; };
+		3AE23EF41AFA154700939315 /* FordAntennaCompWGL-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-BlackItalic.otf"; sourceTree = "<group>"; };
+		3AE23EF51AFA154700939315 /* FordAntennaCompWGL-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-Bold.otf"; sourceTree = "<group>"; };
+		3AE23EF61AFA154700939315 /* FordAntennaCompWGL-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-BoldItalic.otf"; sourceTree = "<group>"; };
+		3AE23EF71AFA154700939315 /* FordAntennaCompWGL-ExtLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-ExtLight.otf"; sourceTree = "<group>"; };
+		3AE23EF81AFA154700939315 /* FordAntennaCompWGL-ExtLigIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-ExtLigIt.otf"; sourceTree = "<group>"; };
+		3AE23EF91AFA154700939315 /* FordAntennaCompWGL-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-Light.otf"; sourceTree = "<group>"; };
+		3AE23EFA1AFA154700939315 /* FordAntennaCompWGL-LightIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-LightIta.otf"; sourceTree = "<group>"; };
+		3AE23EFB1AFA154700939315 /* FordAntennaCompWGL-Med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-Med.otf"; sourceTree = "<group>"; };
+		3AE23EFC1AFA154700939315 /* FordAntennaCompWGL-MedItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-MedItalic.otf"; sourceTree = "<group>"; };
+		3AE23EFD1AFA154700939315 /* FordAntennaCompWGL-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-Reg.otf"; sourceTree = "<group>"; };
+		3AE23EFE1AFA154700939315 /* FordAntennaCompWGL-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-RegItalic.otf"; sourceTree = "<group>"; };
+		3AE23EFF1AFA154700939315 /* FordAntennaCompWGL-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-Semibold.otf"; sourceTree = "<group>"; };
+		3AE23F001AFA154700939315 /* FordAntennaCompWGL-SemiboldIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-SemiboldIta.otf"; sourceTree = "<group>"; };
+		3AE23F011AFA154700939315 /* FordAntennaCompWGL-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-Thin.otf"; sourceTree = "<group>"; };
+		3AE23F021AFA154700939315 /* FordAntennaCompWGL-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCompWGL-ThinItalic.otf"; sourceTree = "<group>"; };
+		3AE23F031AFA154700939315 /* FordAntennaCondWGL-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-Black.otf"; sourceTree = "<group>"; };
+		3AE23F041AFA154700939315 /* FordAntennaCondWGL-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-BlackItalic.otf"; sourceTree = "<group>"; };
+		3AE23F051AFA154700939315 /* FordAntennaCondWGL-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-Bold.otf"; sourceTree = "<group>"; };
+		3AE23F061AFA154700939315 /* FordAntennaCondWGL-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-BoldItalic.otf"; sourceTree = "<group>"; };
+		3AE23F071AFA154700939315 /* FordAntennaCondWGL-ExtLightIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-ExtLightIta.otf"; sourceTree = "<group>"; };
+		3AE23F081AFA154700939315 /* FordAntennaCondWGL-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-ExtraLight.otf"; sourceTree = "<group>"; };
+		3AE23F091AFA154700939315 /* FordAntennaCondWGL-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-Light.otf"; sourceTree = "<group>"; };
+		3AE23F0A1AFA154700939315 /* FordAntennaCondWGL-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-LightItalic.otf"; sourceTree = "<group>"; };
+		3AE23F0B1AFA154700939315 /* FordAntennaCondWGL-Med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-Med.otf"; sourceTree = "<group>"; };
+		3AE23F0C1AFA154700939315 /* FordAntennaCondWGL-MedItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-MedItalic.otf"; sourceTree = "<group>"; };
+		3AE23F0D1AFA154700939315 /* FordAntennaCondWGL-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-Reg.otf"; sourceTree = "<group>"; };
+		3AE23F0E1AFA154700939315 /* FordAntennaCondWGL-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-RegItalic.otf"; sourceTree = "<group>"; };
+		3AE23F0F1AFA154700939315 /* FordAntennaCondWGL-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-Thin.otf"; sourceTree = "<group>"; };
+		3AE23F101AFA154700939315 /* FordAntennaCondWGL-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaCondWGL-ThinItalic.otf"; sourceTree = "<group>"; };
+		3AE23F111AFA154700939315 /* FordAntennaExtraCondWGL-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-Black.otf"; sourceTree = "<group>"; };
+		3AE23F121AFA154700939315 /* FordAntennaExtraCondWGL-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-BlackIt.otf"; sourceTree = "<group>"; };
+		3AE23F131AFA154700939315 /* FordAntennaExtraCondWGL-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-Bold.otf"; sourceTree = "<group>"; };
+		3AE23F141AFA154700939315 /* FordAntennaExtraCondWGL-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-BoldIt.otf"; sourceTree = "<group>"; };
+		3AE23F151AFA154700939315 /* FordAntennaExtraCondWGL-ExtLig.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-ExtLig.otf"; sourceTree = "<group>"; };
+		3AE23F161AFA154700939315 /* FordAntennaExtraCondWGL-ExtLigIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-ExtLigIt.otf"; sourceTree = "<group>"; };
+		3AE23F171AFA154700939315 /* FordAntennaExtraCondWGL-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-Light.otf"; sourceTree = "<group>"; };
+		3AE23F181AFA154700939315 /* FordAntennaExtraCondWGL-LigIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-LigIt.otf"; sourceTree = "<group>"; };
+		3AE23F191AFA154700939315 /* FordAntennaExtraCondWGL-Med.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-Med.otf"; sourceTree = "<group>"; };
+		3AE23F1A1AFA154700939315 /* FordAntennaExtraCondWGL-MedIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-MedIt.otf"; sourceTree = "<group>"; };
+		3AE23F1B1AFA154700939315 /* FordAntennaExtraCondWGL-Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-Reg.otf"; sourceTree = "<group>"; };
+		3AE23F1C1AFA154700939315 /* FordAntennaExtraCondWGL-RegIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-RegIta.otf"; sourceTree = "<group>"; };
+		3AE23F1D1AFA154700939315 /* FordAntennaExtraCondWGL-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-Semibold.otf"; sourceTree = "<group>"; };
+		3AE23F1E1AFA154700939315 /* FordAntennaExtraCondWGL-SemiboldIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-SemiboldIta.otf"; sourceTree = "<group>"; };
+		3AE23F1F1AFA154700939315 /* FordAntennaExtraCondWGL-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-Thin.otf"; sourceTree = "<group>"; };
+		3AE23F201AFA154700939315 /* FordAntennaExtraCondWGL-ThinIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaExtraCondWGL-ThinIta.otf"; sourceTree = "<group>"; };
+		3AE23F211AFA154700939315 /* FordAntennaWGL-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-Black.otf"; sourceTree = "<group>"; };
+		3AE23F221AFA154700939315 /* FordAntennaWGL-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-BlackItalic.otf"; sourceTree = "<group>"; };
+		3AE23F231AFA154700939315 /* FordAntennaWGL-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-Bold.otf"; sourceTree = "<group>"; };
+		3AE23F241AFA154700939315 /* FordAntennaWGL-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-BoldItalic.otf"; sourceTree = "<group>"; };
+		3AE23F251AFA154700939315 /* FordAntennaWGL-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-ExtraLight.otf"; sourceTree = "<group>"; };
+		3AE23F261AFA154700939315 /* FordAntennaWGL-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		3AE23F271AFA154700939315 /* FordAntennaWGL-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-Light.otf"; sourceTree = "<group>"; };
+		3AE23F281AFA154700939315 /* FordAntennaWGL-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-LightItalic.otf"; sourceTree = "<group>"; };
+		3AE23F291AFA154700939315 /* FordAntennaWGL-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-Medium.otf"; sourceTree = "<group>"; };
+		3AE23F2A1AFA154700939315 /* FordAntennaWGL-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-MediumItalic.otf"; sourceTree = "<group>"; };
+		3AE23F2B1AFA154700939315 /* FordAntennaWGL-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-Regular.otf"; sourceTree = "<group>"; };
+		3AE23F2C1AFA154700939315 /* FordAntennaWGL-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-RegularItalic.otf"; sourceTree = "<group>"; };
+		3AE23F2D1AFA154700939315 /* FordAntennaWGL-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-Semibold.otf"; sourceTree = "<group>"; };
+		3AE23F2E1AFA154700939315 /* FordAntennaWGL-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		3AE23F2F1AFA154700939315 /* FordAntennaWGL-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-Thin.otf"; sourceTree = "<group>"; };
+		3AE23F301AFA154700939315 /* FordAntennaWGL-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FordAntennaWGL-ThinItalic.otf"; sourceTree = "<group>"; };
+		3AE23F791AFA4A5E00939315 /* Commercial1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Commercial1.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +258,7 @@
 		3AE23E591AF7B01D00939315 /* FordQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				3AE23EE81AFA154600939315 /* Font */,
 				3AE23E8B1AF8147A00939315 /* Assets */,
 				3AE23E841AF7BB1600939315 /* Cells */,
 				3AE23E801AF7B68700939315 /* ViewControllers */,
@@ -160,6 +311,10 @@
 				3AE23E891AF8143F00939315 /* VideoViewController.m */,
 				3AE23EAB1AF854F300939315 /* WelcomeViewController.h */,
 				3AE23EAC1AF854F300939315 /* WelcomeViewController.m */,
+				3A0EEDA51AFA650400583CC2 /* ResultViewController.h */,
+				3A0EEDA61AFA650400583CC2 /* ResultViewController.m */,
+				3A0EEDA81AFA66C900583CC2 /* WebViewController.h */,
+				3A0EEDA91AFA66C900583CC2 /* WebViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -178,9 +333,88 @@
 		3AE23E8B1AF8147A00939315 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3AE23E8C1AF8148D00939315 /* Commercial.mp4 */,
+				3AE23F791AFA4A5E00939315 /* Commercial1.mov */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		3AE23EE81AFA154600939315 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3AE23EE91AFA154600939315 /* Antenna Black.otf */,
+				3AE23EEA1AFA154700939315 /* Antenna BlackItalic.otf */,
+				3AE23EEB1AFA154700939315 /* Antenna Bold.otf */,
+				3AE23EEC1AFA154700939315 /* Antenna BoldItalic.otf */,
+				3AE23EED1AFA154700939315 /* Antenna Light.otf */,
+				3AE23EEE1AFA154700939315 /* Antenna LightItalic.otf */,
+				3AE23EEF1AFA154700939315 /* Antenna Medium.otf */,
+				3AE23EF01AFA154700939315 /* Antenna Regular.otf */,
+				3AE23EF11AFA154700939315 /* Antenna RegularItalic.otf */,
+				3AE23EF21AFA154700939315 /* AntennaCond Light.otf */,
+				3AE23EF31AFA154700939315 /* FordAntennaCompWGL-Black.otf */,
+				3AE23EF41AFA154700939315 /* FordAntennaCompWGL-BlackItalic.otf */,
+				3AE23EF51AFA154700939315 /* FordAntennaCompWGL-Bold.otf */,
+				3AE23EF61AFA154700939315 /* FordAntennaCompWGL-BoldItalic.otf */,
+				3AE23EF71AFA154700939315 /* FordAntennaCompWGL-ExtLight.otf */,
+				3AE23EF81AFA154700939315 /* FordAntennaCompWGL-ExtLigIt.otf */,
+				3AE23EF91AFA154700939315 /* FordAntennaCompWGL-Light.otf */,
+				3AE23EFA1AFA154700939315 /* FordAntennaCompWGL-LightIta.otf */,
+				3AE23EFB1AFA154700939315 /* FordAntennaCompWGL-Med.otf */,
+				3AE23EFC1AFA154700939315 /* FordAntennaCompWGL-MedItalic.otf */,
+				3AE23EFD1AFA154700939315 /* FordAntennaCompWGL-Reg.otf */,
+				3AE23EFE1AFA154700939315 /* FordAntennaCompWGL-RegItalic.otf */,
+				3AE23EFF1AFA154700939315 /* FordAntennaCompWGL-Semibold.otf */,
+				3AE23F001AFA154700939315 /* FordAntennaCompWGL-SemiboldIta.otf */,
+				3AE23F011AFA154700939315 /* FordAntennaCompWGL-Thin.otf */,
+				3AE23F021AFA154700939315 /* FordAntennaCompWGL-ThinItalic.otf */,
+				3AE23F031AFA154700939315 /* FordAntennaCondWGL-Black.otf */,
+				3AE23F041AFA154700939315 /* FordAntennaCondWGL-BlackItalic.otf */,
+				3AE23F051AFA154700939315 /* FordAntennaCondWGL-Bold.otf */,
+				3AE23F061AFA154700939315 /* FordAntennaCondWGL-BoldItalic.otf */,
+				3AE23F071AFA154700939315 /* FordAntennaCondWGL-ExtLightIta.otf */,
+				3AE23F081AFA154700939315 /* FordAntennaCondWGL-ExtraLight.otf */,
+				3AE23F091AFA154700939315 /* FordAntennaCondWGL-Light.otf */,
+				3AE23F0A1AFA154700939315 /* FordAntennaCondWGL-LightItalic.otf */,
+				3AE23F0B1AFA154700939315 /* FordAntennaCondWGL-Med.otf */,
+				3AE23F0C1AFA154700939315 /* FordAntennaCondWGL-MedItalic.otf */,
+				3AE23F0D1AFA154700939315 /* FordAntennaCondWGL-Reg.otf */,
+				3AE23F0E1AFA154700939315 /* FordAntennaCondWGL-RegItalic.otf */,
+				3AE23F0F1AFA154700939315 /* FordAntennaCondWGL-Thin.otf */,
+				3AE23F101AFA154700939315 /* FordAntennaCondWGL-ThinItalic.otf */,
+				3AE23F111AFA154700939315 /* FordAntennaExtraCondWGL-Black.otf */,
+				3AE23F121AFA154700939315 /* FordAntennaExtraCondWGL-BlackIt.otf */,
+				3AE23F131AFA154700939315 /* FordAntennaExtraCondWGL-Bold.otf */,
+				3AE23F141AFA154700939315 /* FordAntennaExtraCondWGL-BoldIt.otf */,
+				3AE23F151AFA154700939315 /* FordAntennaExtraCondWGL-ExtLig.otf */,
+				3AE23F161AFA154700939315 /* FordAntennaExtraCondWGL-ExtLigIt.otf */,
+				3AE23F171AFA154700939315 /* FordAntennaExtraCondWGL-Light.otf */,
+				3AE23F181AFA154700939315 /* FordAntennaExtraCondWGL-LigIt.otf */,
+				3AE23F191AFA154700939315 /* FordAntennaExtraCondWGL-Med.otf */,
+				3AE23F1A1AFA154700939315 /* FordAntennaExtraCondWGL-MedIt.otf */,
+				3AE23F1B1AFA154700939315 /* FordAntennaExtraCondWGL-Reg.otf */,
+				3AE23F1C1AFA154700939315 /* FordAntennaExtraCondWGL-RegIta.otf */,
+				3AE23F1D1AFA154700939315 /* FordAntennaExtraCondWGL-Semibold.otf */,
+				3AE23F1E1AFA154700939315 /* FordAntennaExtraCondWGL-SemiboldIta.otf */,
+				3AE23F1F1AFA154700939315 /* FordAntennaExtraCondWGL-Thin.otf */,
+				3AE23F201AFA154700939315 /* FordAntennaExtraCondWGL-ThinIta.otf */,
+				3AE23F211AFA154700939315 /* FordAntennaWGL-Black.otf */,
+				3AE23F221AFA154700939315 /* FordAntennaWGL-BlackItalic.otf */,
+				3AE23F231AFA154700939315 /* FordAntennaWGL-Bold.otf */,
+				3AE23F241AFA154700939315 /* FordAntennaWGL-BoldItalic.otf */,
+				3AE23F251AFA154700939315 /* FordAntennaWGL-ExtraLight.otf */,
+				3AE23F261AFA154700939315 /* FordAntennaWGL-ExtraLightItalic.otf */,
+				3AE23F271AFA154700939315 /* FordAntennaWGL-Light.otf */,
+				3AE23F281AFA154700939315 /* FordAntennaWGL-LightItalic.otf */,
+				3AE23F291AFA154700939315 /* FordAntennaWGL-Medium.otf */,
+				3AE23F2A1AFA154700939315 /* FordAntennaWGL-MediumItalic.otf */,
+				3AE23F2B1AFA154700939315 /* FordAntennaWGL-Regular.otf */,
+				3AE23F2C1AFA154700939315 /* FordAntennaWGL-RegularItalic.otf */,
+				3AE23F2D1AFA154700939315 /* FordAntennaWGL-Semibold.otf */,
+				3AE23F2E1AFA154700939315 /* FordAntennaWGL-SemiboldItalic.otf */,
+				3AE23F2F1AFA154700939315 /* FordAntennaWGL-Thin.otf */,
+				3AE23F301AFA154700939315 /* FordAntennaWGL-ThinItalic.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +466,7 @@
 				TargetAttributes = {
 					3AE23E561AF7B01D00939315 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = H2P64G9YTN;
 					};
 					3AE23E6F1AF7B01D00939315 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -263,12 +498,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE23F751AFA154700939315 /* FordAntennaWGL-Semibold.otf in Resources */,
+				3AE23F561AFA154700939315 /* FordAntennaCondWGL-RegItalic.otf in Resources */,
+				3AE23F781AFA154700939315 /* FordAntennaWGL-ThinItalic.otf in Resources */,
+				3AE23F5D1AFA154700939315 /* FordAntennaExtraCondWGL-ExtLig.otf in Resources */,
+				3AE23F701AFA154700939315 /* FordAntennaWGL-LightItalic.otf in Resources */,
+				3AE23F4A1AFA154700939315 /* FordAntennaCompWGL-ThinItalic.otf in Resources */,
+				3AE23F6A1AFA154700939315 /* FordAntennaWGL-BlackItalic.otf in Resources */,
 				3AE23EAF1AF858F900939315 /* Questions.plist in Resources */,
+				3AE23F451AFA154700939315 /* FordAntennaCompWGL-Reg.otf in Resources */,
+				3AE23F5F1AFA154700939315 /* FordAntennaExtraCondWGL-Light.otf in Resources */,
+				3AE23F3D1AFA154700939315 /* FordAntennaCompWGL-Bold.otf in Resources */,
+				3AE23F541AFA154700939315 /* FordAntennaCondWGL-MedItalic.otf in Resources */,
+				3AE23F721AFA154700939315 /* FordAntennaWGL-MediumItalic.otf in Resources */,
 				3AE23E931AF83A1900939315 /* QuestionView.xib in Resources */,
+				3AE23F7A1AFA4A5E00939315 /* Commercial1.mov in Resources */,
+				3AE23F741AFA154700939315 /* FordAntennaWGL-RegularItalic.otf in Resources */,
+				3AE23F311AFA154700939315 /* Antenna Black.otf in Resources */,
+				3AE23F321AFA154700939315 /* Antenna BlackItalic.otf in Resources */,
+				3AE23F6B1AFA154700939315 /* FordAntennaWGL-Bold.otf in Resources */,
+				3AE23F5E1AFA154700939315 /* FordAntennaExtraCondWGL-ExtLigIt.otf in Resources */,
+				3AE23F461AFA154700939315 /* FordAntennaCompWGL-RegItalic.otf in Resources */,
+				3AE23F3B1AFA154700939315 /* FordAntennaCompWGL-Black.otf in Resources */,
 				3AE23E661AF7B01D00939315 /* Main.storyboard in Resources */,
+				3AE23F591AFA154700939315 /* FordAntennaExtraCondWGL-Black.otf in Resources */,
+				3AE23F3F1AFA154700939315 /* FordAntennaCompWGL-ExtLight.otf in Resources */,
+				3AE23F351AFA154700939315 /* Antenna Light.otf in Resources */,
+				3AE23F531AFA154700939315 /* FordAntennaCondWGL-Med.otf in Resources */,
+				3AE23F691AFA154700939315 /* FordAntennaWGL-Black.otf in Resources */,
+				3AE23F331AFA154700939315 /* Antenna Bold.otf in Resources */,
+				3AE23F5C1AFA154700939315 /* FordAntennaExtraCondWGL-BoldIt.otf in Resources */,
 				3AE23E6B1AF7B01D00939315 /* LaunchScreen.xib in Resources */,
+				3AE23F4E1AFA154700939315 /* FordAntennaCondWGL-BoldItalic.otf in Resources */,
+				3AE23F581AFA154700939315 /* FordAntennaCondWGL-ThinItalic.otf in Resources */,
+				3AE23F6D1AFA154700939315 /* FordAntennaWGL-ExtraLight.otf in Resources */,
+				3AE23F6F1AFA154700939315 /* FordAntennaWGL-Light.otf in Resources */,
+				3AE23F4D1AFA154700939315 /* FordAntennaCondWGL-Bold.otf in Resources */,
+				3AE23F441AFA154700939315 /* FordAntennaCompWGL-MedItalic.otf in Resources */,
+				3AE23F711AFA154700939315 /* FordAntennaWGL-Medium.otf in Resources */,
+				3AE23F5B1AFA154700939315 /* FordAntennaExtraCondWGL-Bold.otf in Resources */,
+				3AE23F761AFA154700939315 /* FordAntennaWGL-SemiboldItalic.otf in Resources */,
+				3AE23F421AFA154700939315 /* FordAntennaCompWGL-LightIta.otf in Resources */,
+				3AE23F6C1AFA154700939315 /* FordAntennaWGL-BoldItalic.otf in Resources */,
+				3AE23F371AFA154700939315 /* Antenna Medium.otf in Resources */,
+				3AE23F3C1AFA154700939315 /* FordAntennaCompWGL-BlackItalic.otf in Resources */,
+				3AE23F5A1AFA154700939315 /* FordAntennaExtraCondWGL-BlackIt.otf in Resources */,
 				3AE23E681AF7B01D00939315 /* Images.xcassets in Resources */,
-				3AE23E8F1AF817E200939315 /* Commercial.mp4 in Resources */,
+				3AE23F651AFA154700939315 /* FordAntennaExtraCondWGL-Semibold.otf in Resources */,
+				3AE23F3E1AFA154700939315 /* FordAntennaCompWGL-BoldItalic.otf in Resources */,
+				3AE23F341AFA154700939315 /* Antenna BoldItalic.otf in Resources */,
+				3AE23F471AFA154700939315 /* FordAntennaCompWGL-Semibold.otf in Resources */,
+				3AE23F731AFA154700939315 /* FordAntennaWGL-Regular.otf in Resources */,
+				3AE23F411AFA154700939315 /* FordAntennaCompWGL-Light.otf in Resources */,
+				3AE23F431AFA154700939315 /* FordAntennaCompWGL-Med.otf in Resources */,
+				3AE23F401AFA154700939315 /* FordAntennaCompWGL-ExtLigIt.otf in Resources */,
+				3AE23F6E1AFA154700939315 /* FordAntennaWGL-ExtraLightItalic.otf in Resources */,
+				3AE23F661AFA154700939315 /* FordAntennaExtraCondWGL-SemiboldIta.otf in Resources */,
+				3AE23F641AFA154700939315 /* FordAntennaExtraCondWGL-RegIta.otf in Resources */,
+				3AE23F551AFA154700939315 /* FordAntennaCondWGL-Reg.otf in Resources */,
+				3AE23F521AFA154700939315 /* FordAntennaCondWGL-LightItalic.otf in Resources */,
+				3AE23F621AFA154700939315 /* FordAntennaExtraCondWGL-MedIt.otf in Resources */,
+				3AE23F361AFA154700939315 /* Antenna LightItalic.otf in Resources */,
+				3AE23F671AFA154700939315 /* FordAntennaExtraCondWGL-Thin.otf in Resources */,
+				3AE23F481AFA154700939315 /* FordAntennaCompWGL-SemiboldIta.otf in Resources */,
+				3AE23F611AFA154700939315 /* FordAntennaExtraCondWGL-Med.otf in Resources */,
+				3AE23F491AFA154700939315 /* FordAntennaCompWGL-Thin.otf in Resources */,
+				3AE23F571AFA154700939315 /* FordAntennaCondWGL-Thin.otf in Resources */,
+				3AE23F681AFA154700939315 /* FordAntennaExtraCondWGL-ThinIta.otf in Resources */,
+				3AE23F4C1AFA154700939315 /* FordAntennaCondWGL-BlackItalic.otf in Resources */,
+				3AE23F391AFA154700939315 /* Antenna RegularItalic.otf in Resources */,
+				3AE23F771AFA154700939315 /* FordAntennaWGL-Thin.otf in Resources */,
+				3AE23F601AFA154700939315 /* FordAntennaExtraCondWGL-LigIt.otf in Resources */,
+				3AE23F381AFA154700939315 /* Antenna Regular.otf in Resources */,
+				3AE23F631AFA154700939315 /* FordAntennaExtraCondWGL-Reg.otf in Resources */,
+				3AE23F3A1AFA154700939315 /* AntennaCond Light.otf in Resources */,
+				3AE23F4B1AFA154700939315 /* FordAntennaCondWGL-Black.otf in Resources */,
+				3AE23F4F1AFA154700939315 /* FordAntennaCondWGL-ExtLightIta.otf in Resources */,
+				3AE23F511AFA154700939315 /* FordAntennaCondWGL-Light.otf in Resources */,
+				3AE23F501AFA154700939315 /* FordAntennaCondWGL-ExtraLight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +594,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE23E961AF83B9400939315 /* QuestionView.m in Sources */,
+				3A0EEDAA1AFA66C900583CC2 /* WebViewController.m in Sources */,
 				3AE23E631AF7B01D00939315 /* ViewController.m in Sources */,
 				3AE23E831AF7B69C00939315 /* BaseQuestionViewController.m in Sources */,
 				3AE23E8A1AF8143F00939315 /* VideoViewController.m in Sources */,
@@ -294,6 +602,7 @@
 				3AE23EAD1AF854F300939315 /* WelcomeViewController.m in Sources */,
 				3AE23E871AF7BB2E00939315 /* OptionCollectionViewCell.m in Sources */,
 				3AE23E5D1AF7B01D00939315 /* main.m in Sources */,
+				3A0EEDA71AFA650400583CC2 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +730,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FordQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,6 +741,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FordQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
