@@ -3,7 +3,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -12,41 +11,37 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main-background" translatesAutoresizingMaskIntoConstraints="NO" id="o9K-gK-jjn">
+                <view alpha="0.69999999999999973" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sKO-Gl-dGD">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WDY-logo" translatesAutoresizingMaskIntoConstraints="NO" id="H7d-Yq-57t">
-                    <rect key="frame" x="70" y="70" width="275" height="308"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WDY-logo" translatesAutoresizingMaskIntoConstraints="NO" id="nXL-Ii-dBJ">
+                            <rect key="frame" x="90" y="73" width="300" height="334"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="nXL-Ii-dBJ" secondAttribute="height" multiplier="9:10" id="Y4c-et-9fC"/>
+                                <constraint firstAttribute="width" constant="300" id="x2f-bf-2Mv"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.8980392157" green="0.1764705882" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="H7d-Yq-57t" secondAttribute="height" multiplier="321:359" id="cus-s8-C1e"/>
-                        <constraint firstAttribute="width" constant="275" id="qYK-Sb-tJ5"/>
+                        <constraint firstAttribute="centerY" secondItem="nXL-Ii-dBJ" secondAttribute="centerY" id="Alt-wh-PRi"/>
+                        <constraint firstAttribute="centerX" secondItem="nXL-Ii-dBJ" secondAttribute="centerX" id="AnU-BB-Lme"/>
                     </constraints>
-                </imageView>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="o9K-gK-jjn" secondAttribute="bottom" id="Bzn-EF-sD7"/>
-                <constraint firstAttribute="trailing" secondItem="o9K-gK-jjn" secondAttribute="trailing" id="JLi-kX-Dbp"/>
-                <constraint firstItem="H7d-Yq-57t" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="62" id="P1C-Zq-WfU"/>
-                <constraint firstItem="H7d-Yq-57t" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="62" id="a2Q-7Y-g03"/>
-                <constraint firstItem="H7d-Yq-57t" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="r6N-zb-vGq"/>
-                <constraint firstItem="o9K-gK-jjn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rIG-bv-iym"/>
-                <constraint firstItem="o9K-gK-jjn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vVX-7A-gNa"/>
-                <constraint firstItem="H7d-Yq-57t" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="wVd-ua-AcQ"/>
+                <constraint firstItem="sKO-Gl-dGD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0DR-YD-I8n"/>
+                <constraint firstAttribute="bottom" secondItem="sKO-Gl-dGD" secondAttribute="bottom" id="69T-uw-fWD"/>
+                <constraint firstAttribute="trailing" secondItem="sKO-Gl-dGD" secondAttribute="trailing" id="e3g-g9-0bs"/>
+                <constraint firstItem="sKO-Gl-dGD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kYC-cs-ChL"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="r6N-zb-vGq"/>
-                    <exclude reference="wVd-ua-AcQ"/>
-                </mask>
-            </variation>
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>
     <resources>
         <image name="WDY-logo" width="540" height="600"/>
-        <image name="main-background" width="2040" height="1539"/>
     </resources>
 </document>

@@ -26,7 +26,6 @@
     self.optionView.delegate = self;
     self.optionView.dataSource = self;
     self.currentSelection = -1;
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"Questions" ofType:@"plist"];
     self.questions = [[NSUserDefaults standardUserDefaults] objectForKey:@"Questions"];
     NSInteger tag = self.view.tag;
     NSDictionary *dict = [self.questions objectAtIndex:tag];
@@ -35,16 +34,19 @@
     self.questionLabel.text = [dict objectForKey:@"Question"];
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     [self updateSelection];
-    [self setupImage1];    
-//    [self.navigationItem setHidesBackButton:YES];
+    [self setupImage1];
+    self.backgroundImage.alpha = 1.0f;
+    self.navigationItem.title = @"Back";
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    self.navigationItem.title = @"Back";
 }
 
 -(void)viewDidAppear:(BOOL)animated {
     
     [super viewDidAppear:YES];
     [self setupImage1];
-//    [self.navigationItem setHidesBackButton:YES];
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -85,7 +87,7 @@
     NSInteger numberOfPoints = cell.points;
 //    NSArray *array = (NSArray *) [defaults objectForKey:@"Points"];
     NSMutableArray *array = [NSMutableArray arrayWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"Points"]];
-    NSString *points = [NSString stringWithFormat:@"%d", numberOfPoints];
+    NSString *points = [NSString stringWithFormat:@"%ld", (long)numberOfPoints];
     [array replaceObjectAtIndex:tag withObject:points];
     [defaults setObject:array forKey:@"Points"];
     NSLog(@"Array - %@",array);
@@ -155,7 +157,6 @@
 
 - (void) setupImage {
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-    NSLog(@"Orientation - %ld",orientation);
     switch ((long)orientation) {
         case UIInterfaceOrientationPortrait:
         case UIInterfaceOrientationPortraitUpsideDown:
@@ -170,7 +171,6 @@
 
 - (void) setupImage1 {
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-    NSLog(@"Orientation - %ld",orientation);
     switch ((long)orientation) {
         case UIInterfaceOrientationPortrait:
         case UIInterfaceOrientationPortraitUpsideDown:

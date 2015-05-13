@@ -16,12 +16,12 @@
 		<key>Options</key>
 		<array>
 			<string>Unwind and listen to some good music</string>
-			<string>Take a step back and try coming at the problem at work from a different approach</string>
+			<string>Take a step back and work out a solution to the problem</string>
 			<string>Tackle the problem you had at work</string>
-			<string>Start the next day with full energy, overcoming all hurdles</string>
-			<string>Catch up with friends and have a blast</string>
-			<string>Come home and cook a wholesome meal for your family</string>
-			<string>Hit the gym</string>
+			<string>Deal with the problem and make sure it never happens again</string>
+			<string>Catch up with friends and unwind</string>
+			<string>Come home and cook a meal for your family to relax</string>
+			<string>Stay in office till the problem is solved</string>
 		</array>
 		<key>Question</key>
 		<string>You had a long/bad day at work. What would you rather do ?</string>
@@ -29,13 +29,13 @@
 	<dict>
 		<key>Options</key>
 		<array>
-			<string>Enable and appreciate independent thought</string>
-			<string>Challenge you constantly</string>
-			<string>Appreciate and hold in high esteem</string>
-			<string>Would enable to have some status among your peers</string>
-			<string>Allow you a good work and personal life balance</string>
-			<string>Provide with stability and security</string>
-			<string>Enable you to achieve your life goals</string>
+			<string>Something that let&apos;s you be independent and creative</string>
+			<string>Something that challenges you constantly</string>
+			<string>Something that people appreciate</string>
+			<string>Something that gets you to the top</string>
+			<string>Something that allows you to spend time with friends and family</string>
+			<string>Something that gives you stability</string>
+			<string>Something that enables you to achieve your life goals</string>
 		</array>
 		<key>AnswerKeys</key>
 		<array>
@@ -48,18 +48,18 @@
 			<integer>1</integer>
 		</array>
 		<key>Question</key>
-		<string>Your perfect job would</string>
+		<string>Your perfect job would be</string>
 	</dict>
 	<dict>
 		<key>Options</key>
 		<array>
-			<string>Get people together and hit the latest art exhibition/ live performance/ play</string>
-			<string>Get people together to try the latest rock climbing centre opened</string>
-			<string>Cook a fabulous meal and display your newly acquired culinary skills</string>
-			<string>Put together an evening which allows you to network and create the right contacts</string>
-			<string>Allow you a good work and personal life balance</string>
+			<string>Hit the latest art exhibition/ live performance/ play</string>
+			<string>Go hiking at the latest rock climbing centre</string>
+			<string>Cook a fabulous meal and show off your culinary skills</string>
+			<string>Put together an evening which allows you to mix with the right kind of people</string>
+			<string>Call family and close friends and have a picnic at the park</string>
 			<string>You would take the money and help feed the homeless</string>
-			<string>A formal sit down dinner</string>
+			<string>Take your guests to a trusted restaurant</string>
 		</array>
 		<key>AnswerKeys</key>
 		<array>
@@ -83,7 +83,7 @@
 			<string>A determination to succeed</string>
 			<string>A high regard for traditions and customs</string>
 			<string>The ability to ensure the safety and comfort of the family</string>
-			<string>Have their own opinions about things</string>
+			<string>Someone you can always depend on</string>
 		</array>
 		<key>AnswerKeys</key>
 		<array>
@@ -102,7 +102,7 @@
 		<key>Options</key>
 		<array>
 			<string>A place that allows you to relax, enjoy luxrious spas, soak in the sites, enjoy the local flavours</string>
-			<string>A new place  that shows allows you to experience new things</string>
+			<string>A new place that allows you to experience new things</string>
 			<string>A simple holiday that allows you to recharge your batteries</string>
 			<string>The most exotic locale with high-living</string>
 			<string>A family holiday by the sea -side</string>

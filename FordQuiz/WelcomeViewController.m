@@ -25,6 +25,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [self.navigationController setNavigationBarHidden:YES animated:animated];
+    self.navigationItem.title = @"Back";
     [self setupImage1];
 }
 
@@ -75,7 +76,6 @@
 
 - (void) setupImage {
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-    NSLog(@"Orientation - %ld",orientation);
     switch ((long)orientation) {
         case UIInterfaceOrientationPortrait:
         case UIInterfaceOrientationPortraitUpsideDown:
@@ -90,7 +90,6 @@
 
 - (void) setupImage1 {
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-    NSLog(@"Orientation - %ld",orientation);
     switch ((long)orientation) {
         case UIInterfaceOrientationPortrait:
         case UIInterfaceOrientationPortraitUpsideDown:

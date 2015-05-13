@@ -79,7 +79,6 @@
 
 - (void) setupImage {
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-    NSLog(@"Orientation - %ld",orientation);
     switch ((long)orientation) {
         case UIInterfaceOrientationPortrait:
         case UIInterfaceOrientationPortraitUpsideDown:
@@ -94,7 +93,6 @@
 
 - (void) setupImage1 {
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-    NSLog(@"Orientation - %ld",orientation);
     switch ((long)orientation) {
         case UIInterfaceOrientationPortrait:
         case UIInterfaceOrientationPortraitUpsideDown:
