@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.backgroundImage.contentMode = UIViewContentModeScaleToFill;
     [self setupImage1];
     self.optionKey = @[@"C ",@"I ",@"P ",@"A ",@"T ",@"R ",@"U "];
     NSDictionary *types = @{@"C" : @"Creativity",@"I":@"Innovation",@"P":@"Pride",@"A":@"Ambition",@"T":@"Togetherness",@"R":@"Responsibility",@"U":@"Trust"};
@@ -69,7 +70,7 @@
     }
     if([identifier isEqualToString:@"informed"]) {
         WebViewController *controller = (WebViewController *)[segue destinationViewController];
-        controller.urlLink = @"https://www.india.ford.com/cars/figoaspire/kmi?ctx=m:1249148574862-roadshow";
+        controller.urlLink = @"https://www.india.ford.com/cars/figoaspire/kmi-roadshow";
     }
 }
 

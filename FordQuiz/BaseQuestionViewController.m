@@ -36,6 +36,7 @@
     [self updateSelection];
     [self setupImage1];
     self.backgroundImage.alpha = 1.0f;
+    self.backgroundImage.contentMode = UIViewContentModeScaleToFill;
     self.navigationItem.title = @"Back";
 }
 
